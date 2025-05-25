@@ -5,7 +5,7 @@
 
 1. Learn Python Basics for Data Analysis
 
-🔗https://lnkd.in/dWHzkWqp
+🔗 https://coursya.com/product/coursera/learn-python-basics-for-data-analysis/?utm_source=LinkedIn&utm_campaign=AR
 
 2. Data Science Foundation
 
