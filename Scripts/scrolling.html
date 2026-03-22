@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Coding Still Matters – Reel</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #080b10;
+    --surface: #0e1219;
+    --border: #1e2a38;
+    --accent: #00e5a0;
+    --accent2: #0af;
+    --accent3: #f7c94b;
+    --text: #c8d8e8;
+    --muted: #5a7088;
+    --code-bg: #0b1520;
+    --w: 390px;
+    --h: 693px;
+  }
+
+  body {
+    background: #030507;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Syne', sans-serif;
+  }
+
+  /* ── PHONE FRAME ── */
+  .frame {
+    width: var(--w);
+    height: var(--h);
+    background: var(--bg);
+    border-radius: 36px;
+    overflow: hidden;
+    position: relative;
+    border: 1.5px solid #1a2535;
+    box-shadow: 0 0 80px #00e5a01a, 0 0 200px #0005, inset 0 0 40px #00000088;
+  }
+
+  /* noise overlay */
+  .frame::before {
+    content: '';
+    position: absolute; inset: 0; z-index: 10;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    opacity: 0.025;
+    pointer-events: none;
+  }
+
+  /* scanlines */
+  .frame::after {
+    content: '';
+    position: absolute; inset: 0; z-index: 11;
+    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.08) 2px, rgba(0,0,0,0.08) 4px);
+    pointer-events: none;
+  }
+
+  /* grid bg */
+  .grid-bg {
+    position: absolute; inset: 0; z-index: 0;
+    background-image:
+      linear-gradient(rgba(0,229,160,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,229,160,0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  /* glow blobs */
+  .blob {
+    position: absolute; border-radius: 50%;
+    filter: blur(60px); pointer-events: none; z-index: 0;
+  }
+  .blob1 { width: 220px; height: 220px; background: #00e5a012; top: -60px; left: -60px; }
+  .blob2 { width: 180px; height: 180px; background: #0aaf2210; bottom: 40px; right: -40px; }
+
+  /* ── HEADER ── */
+  .header {
+    position: absolute; top: 0; left: 0; right: 0;
+    z-index: 20;
+    padding: 18px 20px 12px;
+    background: linear-gradient(to bottom, var(--bg) 60%, transparent);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px var(--accent); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+  .header-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--accent); letter-spacing: 0.18em; text-transform: uppercase; }
+  .header-tag { margin-left: auto; font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: var(--muted); background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 2px 7px; }
+
+  /* ── FOOTER ── */
+  .footer {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    z-index: 20;
+    height: 80px;
+    background: linear-gradient(to top, var(--bg) 50%, transparent);
+    display: flex; align-items: flex-end; justify-content: center;
+    padding-bottom: 18px;
+  }
+  .footer-handle { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--muted); letter-spacing: 0.1em; }
+  .footer-handle span { color: var(--accent); }
+
+  /* ── SCROLL CONTAINER ── */
+  .scroll-wrap {
+    position: absolute; inset: 0; z-index: 5;
+    overflow: hidden;
+  }
+  .scroll-content {
+    padding: 80px 24px 100px;
+    will-change: transform;
+  }
+
+  /* ── TYPOGRAPHY ── */
+  .hero-line {
+    font-size: 26px; font-weight: 800; line-height: 1.2;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+  .hero-line .hl { color: var(--accent); }
+
+  .sub-line {
+    font-size: 13px; font-weight: 400; color: var(--text);
+    line-height: 1.65; margin-bottom: 20px; opacity: 0.85;
+  }
+
+  .section-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; color: var(--accent2); letter-spacing: 0.2em;
+    text-transform: uppercase; margin-bottom: 10px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  .body-text {
+    font-size: 13px; color: var(--text); line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .skill-title {
+    font-size: 16px; font-weight: 700; color: #fff;
+    margin-bottom: 6px; margin-top: 4px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .skill-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; color: var(--accent); background: #00e5a015;
+    border: 1px solid #00e5a040; border-radius: 4px;
+    padding: 1px 6px; letter-spacing: 0.1em;
+  }
+
+  .bullet-list { list-style: none; margin-bottom: 16px; }
+  .bullet-list li {
+    font-size: 12.5px; color: var(--text); line-height: 1.6;
+    padding: 4px 0 4px 18px; position: relative; opacity: 0.9;
+  }
+  .bullet-list li::before {
+    content: '→'; position: absolute; left: 0;
+    color: var(--accent3); font-size: 11px;
+  }
+
+  .bottom-line {
+    font-size: 13px; font-weight: 700; color: var(--accent3);
+    margin: 10px 0 24px;
+    padding: 8px 12px; border-left: 2px solid var(--accent3);
+    background: #f7c94b0a;
+  }
+
+  .divider {
+    height: 1px; background: var(--border);
+    margin: 20px 0;
+  }
+
+  /* ── CODE BLOCK ── */
+  .code-wrap {
+    margin: 14px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--code-bg);
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    box-shadow: 0 4px 24px #000a, 0 0 0 0.5px #00e5a020;
+  }
+  .code-wrap.visible {
+    opacity: 1; transform: translateY(0) scale(1);
+  }
+
+  .code-header {
+    display: flex; align-items: center; gap: 6px;
+    padding: 8px 12px;
+    background: #0a1422;
+    border-bottom: 1px solid var(--border);
+  }
+  .code-dot { width: 7px; height: 7px; border-radius: 50%; }
+  .cd1 { background: #ff5f57; } .cd2 { background: #febc2e; } .cd3 { background: #28c840; }
+  .code-filename { font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: var(--muted); margin-left: 4px; letter-spacing: 0.08em; }
+
+  .code-body {
+    padding: 12px 14px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; line-height: 1.7; color: #8fb8d8;
+  }
+  .code-body .cmd { color: var(--accent); }
+  .code-body .flag { color: var(--accent3); }
+  .code-body .comment { color: var(--muted); font-style: italic; }
+  .code-body .kw { color: #c792ea; }
+  .code-body .str { color: #c3e88d; }
+
+  .inline-cmd {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px; color: var(--accent);
+    background: #00e5a00d; border: 1px solid #00e5a030;
+    border-radius: 4px; padding: 1px 7px;
+  }
+</style>
+</head>
+<body>
+
+<div class="frame" id="reel">
+  <div class="grid-bg"></div>
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <div class="header">
+    <div class="dot"></div>
+    <span class="header-label">Programmer Insight</span>
+    <span class="header-tag">2026</span>
+  </div>
+
+  <div class="scroll-wrap">
+    <div class="scroll-content" id="scrollContent">
+
+      <!-- HERO -->
+      <div class="hero-line">Coding still matters.<br/><span class="hl">But writting it is no longer</span><br/>what makes you stand out.</div>
+      <div class="sub-line">Most of us were trained for a world where writing code was the hard part. That world is gone.</div>
+
+      <div class="section-label">The shift</div>
+      <div class="body-text">Today, <strong style="color:#fff">syntax is cheap now</strong> and <strong style="color:var(--accent)">context is expensive</strong>.
+        The real skill is knowing how to: .</div>
+
+      <ul class="bullet-list">
+        <li>Delegate chunks of work to tools and agents</li>
+        <li>Keep context intact as work moves across systems</li>
+        <li>Design workflows that reduce friction</li>
+      </ul>
+
+      <div class="body-text" style="color:var(--text);opacity:0.8">This is the new career advantage almost no one taught us in school.</div>
+
+      <div class="divider"></div>
+
+      <!-- SKILL 1 -->
+      <div class="section-label">Skill #1</div>
+      <div class="skill-title"><span class="skill-num">01</span> Learn to delegate reasoning</div>
+      <div class="body-text">A huge amount of programmer time disappears into small repetitive tasks:.</div>
+      <div class="body-text">Instead of manually parsing logs, ask an agent to investigate the failure and explain what happened:</div>
+
+      <div class="code-wrap" data-code>
+        <div class="code-header">
+          <div class="code-dot cd1"></div><div class="code-dot cd2"></div><div class="code-dot cd3"></div>
+          <span class="code-filename">terminal</span>
+        </div>
+        <div class="code-body">
+          <span class="comment"># delegate the investigation</span><br/>
+          <span class="cmd">gh copilot</span> explain <span class="flag">the latest failed CI run</span>
+        </div>
+      </div>
+
+      <div class="bottom-line">The real upgrade:Delegate reasoning so you can think about what matters..</div>
+
+      <div class="divider"></div>
+
+      <!-- SKILL 2 -->
+      <div class="section-label">Skill #2</div>
+      <div class="skill-title"><span class="skill-num">02</span> Turn repeated fixes into workflows</div>
+      <div class="body-text">Fixed the same issue twice? The second time is faster. Third time is annoying. Fourth time — <em style="color:var(--accent3)">that's a workflow</em>.</div>
+
+      <div class="code-wrap" data-code>
+        <div class="code-header">
+          <div class="code-dot cd1"></div><div class="code-dot cd2"></div><div class="code-dot cd3"></div>
+          <span class="code-filename">install + run</span>
+        </div>
+        <div class="code-body">
+          <span class="cmd">gh extension install</span> <span class="str">github/gh-aw</span><br/>
+          <span class="cmd">gh aw add</span> <span class="str">githubnext/agentics/ci-doctor</span><br/>
+          <span class="cmd">gh aw compile</span><br/>
+          <span class="cmd">gh aw run</span> <span class="flag">ci-doctor</span>
+        </div>
+      </div>
+
+      <div class="bottom-line">If you're fixing it twice, it should be an automated workflow.</div>
+
+      <div class="divider"></div>
+
+      <!-- SKILL 3 -->
+      <div class="section-label">Skill #3</div>
+      <div class="skill-title"><span class="skill-num">03</span> Learn to run systems, not just build them</div>
+      <div class="body-text">Setting up a workflow feels productive. Maintaining it is where the real work begins.</div>
+      <div class="body-text">Workflows drift. Repos evolve. Edge cases appear. Things that worked months ago start to break.</div>
+
+      <div class="code-wrap" data-code>
+        <div class="code-header">
+          <div class="code-dot cd1"></div><div class="code-dot cd2"></div><div class="code-dot cd3"></div>
+          <span class="code-filename">monitor health</span>
+        </div>
+        <div class="code-body">
+          <span class="cmd">gh aw status</span> <span class="comment"># what's running</span><br/>
+          <span class="cmd">gh aw logs</span> <span class="flag">ci-doctor</span> <span class="comment"># what's failing</span><br/>
+          <span class="cmd">gh aw health</span> <span class="flag">ci-doctor</span> <span class="comment"># is it healthy?</span>
+        </div>
+      </div>
+
+      <div class="bottom-line">These help you track:
+        • what’s running
+        • what’s failing
+        • whether your workflows are healthy.</div>
+
+      <div class="divider"></div>
+
+      <!-- OUTRO -->
+      <div class="hero-line" style="font-size:20px">The terminal is your<br/><span class="hl">control surface now.</span></div>
+      <div class="sub-line" style="margin-top:10px">Orchestration is the new differentiator. Start building it,  one workflow at a time.</div>
+
+      <!-- padding at end -->
+      <div style="height:60px"></div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="footer-handle"><span>@</span>codewithboi</span>
+  </div>
+</div>
+
+<script>
+  // ── Auto-scroll engine ──
+  const content = document.getElementById('scrollContent');
+  const wrap = document.querySelector('.scroll-wrap');
+
+  // Total scrollable distance
+  const totalScroll = () => content.scrollHeight - wrap.clientHeight;
+  const DURATION = 52000; // 52s total — trim in editing
+  const PAUSE_START = 2500; // pause before scroll
+
+  let startTime = null;
+  let running = false;
+
+  function easeInOut(t) {
+    return t < 0.5 ? 2*t*t : -1+(4-2*t)*t;
+  }
+
+  function checkCodeBlocks(currentY) {
+    document.querySelectorAll('[data-code]').forEach(block => {
+      const rect = block.getBoundingClientRect();
+      const frameRect = document.getElementById('reel').getBoundingClientRect();
+      if (rect.top < frameRect.bottom - 60) {
+        block.classList.add('visible');
+      }
+    });
+  }
+
+  function animate(ts) {
+    if (!startTime) startTime = ts;
+    const elapsed = ts - startTime - PAUSE_START;
+    if (elapsed < 0) { requestAnimationFrame(animate); return; }
+
+    const progress = Math.min(elapsed / DURATION, 1);
+    // slow start, steady middle, slow end
+    const eased = progress < 0.05
+      ? easeInOut(progress / 0.05) * 0.03
+      : progress > 0.92
+      ? 0.92 + easeInOut((progress - 0.92) / 0.08) * 0.08
+      : progress;
+
+    const y = eased * totalScroll();
+    content.style.transform = `translateY(${-y}px)`;
+    checkCodeBlocks(y);
+
+    if (progress < 1) requestAnimationFrame(animate);
+    else {
+      // pause 3s then replay
+      setTimeout(() => {
+        content.style.transform = 'translateY(0)';
+        document.querySelectorAll('[data-code]').forEach(b => b.classList.remove('visible'));
+        startTime = null;
+        requestAnimationFrame(animate);
+      }, 3000);
+    }
+  }
+
+  // Kick off after fonts load
+  document.fonts.ready.then(() => requestAnimationFrame(animate));
+</script>
+</body>
+</html>
