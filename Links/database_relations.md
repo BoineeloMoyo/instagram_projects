@@ -3,9 +3,9 @@
 If SQL joins and database relationships feel confusing at first, you are not alone.  
 These are the exact videos that helped me finally understand how tables connect, how joins work, and how relational databases actually make sense visually.
 
-# Best YouTube Resources That helped elevate my SQL Knowledge
+### Best YouTube Resources that helped me elevate my SQL Knowledge
 
-## 1. Anton Putra — SQL Joins Explained (Highly Recommended)
+## 1. Anton Putra: SQL Joins Explained (Highly Recommended)
 
 This is one of the best visual explanations for SQL joins.  
 The animations make relational thinking much easier to understand.
@@ -23,7 +23,7 @@ Topics covered:
 
 ---
 
-## 2. IBM Technology — What is a Relational Database?
+## 2. IBM Technology: What is a Relational Database?
 
 Perfect if you are still confused about:
 - Tables
@@ -42,7 +42,7 @@ Topics covered:
 
 ---
 
-## 3. Data with Baraa — SQL Joins Basics (Visual Explanation)
+## 3. Data with Baraa: SQL Joins Basics (Visual Explanation)
 
 Extremely beginner-friendly and very easy to follow.
 
@@ -58,7 +58,7 @@ Topics covered:
 
 ---
 
-## 4. Harvard CS50 — Intro to Databases with SQL
+## 4. Harvard CS50: Intro to Databases with SQL
 
 This is more detailed and university-style, but incredibly valuable once you understand the basics.
 
