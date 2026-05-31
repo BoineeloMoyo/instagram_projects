@@ -75,7 +75,7 @@ Topics covered:
 
 ---
 
-# Recommended Learning Order
+# Recommended Learning Order 
 
 1. IBM Technology  
 2. Anton Putra  
