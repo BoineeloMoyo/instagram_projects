@@ -1,4 +1,4 @@
-# 🧠 7 Coding Patterns I Stole From Senior Engineers
+# 7 Coding Patterns I Stole From Senior Engineers
 > Most developers don't get better because they learn more syntax.  
 > They get better because they **stop making code harder than it needs to be.**
 
@@ -6,10 +6,9 @@
 
 ## Pattern 1 — Return Early Instead of Building Conditional Mazes
 
-### 💡 The Idea
+### The Idea
 Check for failure cases **first** and return immediately. Don't make the reader walk through five doors before finding the point. This is called a **guard clause**.
-
-### ❌ The Junior Way — Nested Tunnel
+### The Junior Way — Nested Tunnel
 ```typescript
 async function updateUserProfile(userId: string, input: ProfileInput) {
   const user = await getUser(userId);
@@ -39,17 +38,17 @@ async function updateUserProfile(userId: string, input: ProfileInput) {
 }
 ```
 
-### 🔑 Key Takeaway
+### Key Takeaway
 > Remove the failure paths early so the **real logic can breathe**.
 
 ---
 
 ## Pattern 2 — Name the Business Meaning, Not the Technical Accident
 
-### 💡 The Idea
+### The Idea
 Name things after what they **mean to the business**, not what they technically contain. A variable called `subscription` tells the next developer far more than `result` ever could.
 
-### ❌ The Junior Way — Vague Names
+### The Junior Way — Vague Names
 ```typescript
 const result = await getData(id);
 
@@ -58,7 +57,7 @@ if (result.status === "active") {
 }
 ```
 
-### ✅ The Senior Way — Business Names
+### The Senior Way — Business Names
 ```typescript
 const subscription = await getSubscription(subscriptionId);
 
@@ -78,17 +77,17 @@ const allUsers = await fetchUsers();
 const usersEligibleForReactivation = allUsers.filter(u => u.isInactive && !u.isDeleted);
 ```
 
-### 🔑 Key Takeaway
+### Key Takeaway
 > Senior engineers name code so the **next developer doesn't have to reverse-engineer intent from implementation**.
 
 ---
 
 ## Pattern 3 — Put Boundaries Around External Chaos
 
-### 💡 The Idea
+### The Idea
 Never let a third-party API, webhook, or vendor response become the language of your entire codebase. Create **one boundary** where outside chaos becomes inside language.
 
-### ❌ The Junior Way — Leaking External Shape
+### The Junior Way — Leaking External Shape
 ```typescript
 // This vendor shape now lives in 12 different files
 const userName = response.data.user_name;
@@ -98,7 +97,7 @@ const plan = response.data.subscription.plan_name;
 // Vendor renames user_name → customerName and everything breaks
 ```
 
-### ✅ The Senior Way — An Adapter Boundary
+### The Senior Way — An Adapter Boundary
 ```typescript
 function mapBillingCustomer(response: BillingCustomerResponse): Customer {
   return {
@@ -121,17 +120,17 @@ const customer = mapBillingCustomer(response);
 ✅ One adapter per external system — chaos stays at the door
 ```
 
-### 🔑 Key Takeaway
+### Key Takeaway
 > Never let systems you **don't control** define the shape of systems you **do control**.
 
 ---
 
 ## Pattern 4 — Make Invalid States Boringly Hard
 
-### 💡 The Idea
+### The Idea
 Making every field optional just to stop TypeScript from complaining isn't type safety — it's surrender. Model your states honestly so **wrong usage becomes visible earlier**.
 
-### ❌ The Junior Way — Everything Optional
+### The Junior Way — Everything Optional
 ```typescript
 type User = {
   id?: string;      // is this a new user? a saved user? who knows
@@ -144,7 +143,7 @@ type User = {
 // Does this user have an ID? Is role defined? Can this be saved?
 ```
 
-### ✅ The Senior Way — Honest State Modeling
+### The Senior Way — Honest State Modeling
 ```typescript
 type DraftUser = {
   email: string;
@@ -173,7 +172,7 @@ function sendReceipt(payment: Extract<Payment, { state: "captured" }>) {
 }
 ```
 
-### 🔑 Key Takeaway
+### Key Takeaway
 > Senior engineers don't just handle invalid states.  
 > They design code so **invalid states have fewer places to hide**.
 
@@ -181,10 +180,10 @@ function sendReceipt(payment: Extract<Payment, { state: "captured" }>) {
 
 ## Pattern 5 — Separate Decisions From Actions
 
-### 💡 The Idea
+### The Idea
 Business logic (decisions) and side effects (actions) mixed together = tests that are impossible to write. Pull the **decision into a pure function** so rules can be tested without mocking the world.
 
-### ❌ The Junior Way — Mixed Decision + Action
+### The Junior Way — Mixed Decision + Action
 ```typescript
 async function refundInvoice(invoiceId: string) {
   const invoice = await getInvoice(invoiceId);
@@ -201,7 +200,7 @@ async function refundInvoice(invoiceId: string) {
 }
 ```
 
-### ✅ The Senior Way — Decision Separated
+### The Senior Way — Decision Separated
 ```typescript
 // Pure function — no side effects, easy to unit test
 function getRefundEligibility(invoice: Invoice): RefundEligibility {
@@ -224,17 +223,17 @@ async function refundInvoice(invoiceId: string) {
 }
 ```
 
-### 🔑 Key Takeaway
+### Key Takeaway
 > Decisions should be **easy to test without triggering the side effects they control**.
 
 ---
 
 ## Pattern 6 — Make Errors Useful to the Next Person
 
-### 💡 The Idea
+### The Idea
 "Something went wrong" helps nobody. Treat errors as **communication** — give the right people enough context to move fast.
 
-### ❌ The Junior Way — Useless Errors
+### The Junior Way — Useless Errors
 ```typescript
 // API response
 { "message": "Something went wrong" }
@@ -245,7 +244,7 @@ if (error.message.includes("already exists")) {
 }
 ```
 
-### ✅ The Senior Way — Structured Errors
+### The Senior Way — Structured Errors
 ```typescript
 // API response
 {
@@ -274,10 +273,10 @@ logger.warn("Refund rejected", {
   requestId           // connects to the full request trace
 });
 
-// ⚠️ Never log: passwords, tokens, payment details, or personal data
+// Never log: passwords, tokens, payment details, or personal data
 ```
 
-### 🔑 Key Takeaway
+### Key Takeaway
 > Errors should help the next person understand **what failed, where it failed,  
 > and what evidence connects the failure**.  
 > Text is for humans. **Codes are for systems.**
@@ -286,10 +285,10 @@ logger.warn("Refund rejected", {
 
 ## Pattern 7 — Optimize for the Diff, Not the Demo
 
-### 💡 The Idea
+### The Idea
 A feature can work perfectly in a demo and still be **dangerous to merge**. Senior engineers think in diffs — they make changes reviewable, focused, and safe to undo.
 
-### ❌ The Junior Way — One Giant PR
+### The Junior Way — One Giant PR
 ```
 PR: feat: update billing flow
   - refactor invoice service
@@ -313,7 +312,7 @@ PR 3: Wire refund eligibility into billing flow
 PR 4: Update dashboard UI to show refund reason
 PR 5: Add webhook retry behavior
 
-👆 Each PR tells a clear story.
+Each PR tells a clear story.
    Easy to review. Easy to roll back. Easy to trust.
 ```
 
@@ -327,13 +326,13 @@ During an incident:
   Small diff  = team can isolate the problem in minutes
 ```
 
-### 🔑 Key Takeaway
+### Key Takeaway
 > Code is not done when it works on your machine.  
 > It's done when the change is **understandable, reviewable, testable, and safe to undo**.
 
 ---
 
-## 🎯 The Pattern Under All Patterns
+## The Pattern Under All Patterns
 
 | Pattern | What it reduces |
 |---|---|
@@ -352,6 +351,4 @@ During an incident:
 > **Good code gives the next developer fewer reasons to guess.**
 
 ---
-
-*Source: [7 Coding Patterns I Stole From Senior Engineers — Medium](https://medium.com/skillstuff/7-coding-patterns-i-stole-from-senior-engineers-c95f757e52a6)*  
 *Content by @codewithboi*
