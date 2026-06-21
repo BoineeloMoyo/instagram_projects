@@ -26,7 +26,7 @@ This guide is ideal for:
 ---
 
 # 1. Databricks End-To-End Project 2026 | Zero-To-Hero
-### Creator: Thomas Hass
+### Creator: @Thomas Hass
 
 **YouTube:**  
 https://youtu.be/gFAnlTM-3Zo?si=pxx91_2ognRVg6HF
@@ -50,7 +50,7 @@ Many tutorials explain tools individually. This one helps connect multiple conce
 ---
 
 # 2. How I Would Learn Data Engineering in 2026 (If I Could Start Over)
-### Creator: Jash Radia
+### Creator: @Jash Radia
 
 **YouTube:**  
 https://youtu.be/iiV_O4Uqj9Q?si=yI9XBMSioUg6FzCN
