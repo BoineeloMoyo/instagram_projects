@@ -14,7 +14,7 @@ This guide is ideal for:
 - Software Developers interested in data systems
 - Students building portfolio projects
 ---
-
+ 
 # Recommended Learning Order
 
 1. Data Engineering Course for Beginners → Build foundations  
