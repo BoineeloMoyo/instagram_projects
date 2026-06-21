@@ -1,5 +1,5 @@
 # Data Engineering & Data Pipelines Resource Guide
-### Beginner to Intermediate Learning Path (2026)
+### Created by Boi for @codewithboi 
 
 Data Engineering is one of the most valuable technical skills today because it sits at the center of modern data systems.
 
