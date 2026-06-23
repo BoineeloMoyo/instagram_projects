@@ -28,7 +28,7 @@ This guide is ideal for:
 
 **YouTube:**  
 https://youtu.be/gFAnlTM-3Zo?si=pxx91_2ognRVg6HF
-[!]()
+![Thomas_Hass](../assets/Thomas Hass.png)
 
 This resource focuses on practical implementation and helps you see how modern data platforms work in a realistic project environment.
 If you have already learned some theory and want to understand how engineers connect the pieces together, this is an excellent next step.
