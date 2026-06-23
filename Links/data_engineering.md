@@ -98,6 +98,7 @@ It gives broad coverage and creates the foundation needed before moving into too
 
 **YouTube:**  
 https://youtu.be/1nVGaNbvuXg?si=uPz8c11nPUAtiIF0
+![bara](../assets/Data_with_Bara.png)
 
 This resource focuses on long-term growth and what progression actually looks like across experience levels.
 It combines technical skills with practical career thinking.
@@ -120,6 +121,7 @@ It helps you think beyond tutorials and focus on becoming job-ready.
 
 **YouTube:**  
 https://youtu.be/UjhFbq4uU2Y?si=Oh_RT_GQR4DSr9QS
+
 
 SQL is one of the most important skills in Data Engineering.
 This course builds the querying skills needed to manipulate, retrieve, transform, and validate data efficiently.
