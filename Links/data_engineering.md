@@ -121,7 +121,7 @@ It helps you think beyond tutorials and focus on becoming job-ready.
 
 **YouTube:**  
 https://youtu.be/UjhFbq4uU2Y?si=Oh_RT_GQR4DSr9QS
-![luke](../assets/)
+![luke](../assets/LukeBarousse.png)
 
 SQL is one of the most important skills in Data Engineering.
 This course builds the querying skills needed to manipulate, retrieve, transform, and validate data efficiently.
