@@ -2,9 +2,7 @@
 ### Created by Boi for @codewithboi 
 
 Data Engineering is one of the most valuable technical skills today because it sits at the center of modern data systems.
-
 Data engineers build the infrastructure that collects, transforms, stores, and delivers data so analysts, data scientists, and applications can use it reliably.
-
 If you are overwhelmed by all the tools and learning paths online, this guide focuses on a small set of high-quality resources that build practical understanding step by step.
 
 This guide is ideal for:
@@ -32,7 +30,6 @@ This guide is ideal for:
 https://youtu.be/gFAnlTM-3Zo?si=pxx91_2ognRVg6HF
 
 This resource focuses on practical implementation and helps you see how modern data platforms work in a realistic project environment.
-
 If you have already learned some theory and want to understand how engineers connect the pieces together, this is an excellent next step.
 
 ### What You Will Learn
