@@ -53,6 +53,7 @@ Many tutorials explain tools individually. This one helps connect multiple conce
 
 **YouTube:**  
 https://youtu.be/iiV_O4Uqj9Q?si=yI9XBMSioUg6FzCN
+![Thomas_Hass](../assets/j)
 
 One of the biggest problems for beginners is not knowing what to learn first.
 This video gives a structured roadmap from fundamentals to advanced concepts and helps reduce unnecessary learning.
