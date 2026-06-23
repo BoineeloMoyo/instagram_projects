@@ -28,6 +28,7 @@ This guide is ideal for:
 
 **YouTube:**  
 https://youtu.be/gFAnlTM-3Zo?si=pxx91_2ognRVg6HF
+[!]()
 
 This resource focuses on practical implementation and helps you see how modern data platforms work in a realistic project environment.
 If you have already learned some theory and want to understand how engineers connect the pieces together, this is an excellent next step.
@@ -53,7 +54,6 @@ Many tutorials explain tools individually. This one helps connect multiple conce
 https://youtu.be/iiV_O4Uqj9Q?si=yI9XBMSioUg6FzCN
 
 One of the biggest problems for beginners is not knowing what to learn first.
-
 This video gives a structured roadmap from fundamentals to advanced concepts and helps reduce unnecessary learning.
 
 ### What You Will Learn
@@ -76,7 +76,6 @@ Instead of learning random tools, you learn what matters and in which order.
 https://youtu.be/PHsC_t0j1dU?si=hVgorShRI--ShfPN
 
 This is a strong starting point if you are completely new to the field.
-
 It introduces core concepts clearly and provides enough structure to begin building your own understanding.
 
 ### What You Will Learn
@@ -99,7 +98,6 @@ It gives broad coverage and creates the foundation needed before moving into too
 https://youtu.be/1nVGaNbvuXg?si=uPz8c11nPUAtiIF0
 
 This resource focuses on long-term growth and what progression actually looks like across experience levels.
-
 It combines technical skills with practical career thinking.
 
 ### What You Will Learn
@@ -122,7 +120,6 @@ It helps you think beyond tutorials and focus on becoming job-ready.
 https://youtu.be/UjhFbq4uU2Y?si=Oh_RT_GQR4DSr9QS
 
 SQL is one of the most important skills in Data Engineering.
-
 This course builds the querying skills needed to manipulate, retrieve, transform, and validate data efficiently.
 
 ### What You Will Learn
