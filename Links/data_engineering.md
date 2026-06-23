@@ -76,7 +76,7 @@ Instead of learning random tools, you learn what matters and in which order.
 
 **YouTube:**  
 https://youtu.be/PHsC_t0j1dU?si=hVgorShRI--ShfPN
-
+![freecode](../assets/freecodecamp.png)
 This is a strong starting point if you are completely new to the field.
 It introduces core concepts clearly and provides enough structure to begin building your own understanding.
 
