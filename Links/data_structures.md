@@ -1,22 +1,9 @@
 # Data Structures Resource Guide
 ### Curated by `@codewithboi`: GitHub Repositories for Learning Data Structures & Algorithms
 
-Understanding data structures is one of the most valuable investments you can make as a developer. Whether you're preparing for coding interviews, learning software engineering fundamentals, or improving problem-solving skills, mastering data structures will make you a stronger programmer.
-
 The repositories below are some of the best open-source resources available. They focus on practical implementations, clear explanations, and real interview patterns rather than memorization.
 
-This guide is ideal for:
-- Beginner programmers
-- Computer Science students
-- Software Engineers
-- Backend Developers
-- Data Engineers
-- Anyone preparing for technical interviews
-
----
-
 # What You Will Learn
-
 By exploring these repositories, you will gain a deeper understanding of:
 
 ### Core Data Structures
