@@ -129,13 +129,11 @@ Understanding these patterns allows you to recognize when particular data struct
 ### Why This Repository Is Valuable
 Learning patterns helps you solve unfamiliar problems more effectively instead of memorizing solutions.
 
-# 5. jamiebuilds/itsy-bitsy-data-structures
+## 5. jamiebuilds/itsy-bitsy-data-structures
 
-**GitHub Repository**  
-https://github.com/jamiebuilds/itsy-bitsy-data-structures
+**GitHub Repo**: https://github.com/jamiebuilds/itsy-bitsy-data-structures
 
 A collection of concise explanations for the data structures developers often struggle to fully understand.
-
 The content is intentionally short and approachable, making it perfect for reinforcing concepts without feeling overwhelming.
 
 ### What You Will Learn
@@ -147,15 +145,12 @@ The content is intentionally short and approachable, making it perfect for reinf
 ### Why This Repository Is Valuable
 It answers the questions that many tutorials skip, helping you build genuine intuition for how data structures work.
 
----
 
-# 6. Coder-World04/Complete-Data-Structures-and-Algorithms
+## 6. Coder-World04/Complete-Data-Structures-and-Algorithms
 
-**GitHub Repository**  
-https://github.com/Coder-World04/Complete-Data-Structures-and-Algorithms
+**GitHub Repo**: https://github.com/Coder-World04/Complete-Data-Structures-and-Algorithms
 
 A comprehensive repository covering data structures, algorithms, interview preparation, and introductory system design concepts.
-
 It is particularly useful once you have learned the basics and want to apply them in larger software engineering contexts.
 
 ### What You Will Learn
@@ -170,7 +165,7 @@ It connects data structures with the broader skills required for software engine
 
 ---
 
-# Recommended Learning Order
+## Recommended Learning Order
 
 1. keon/algorithms
 2. TheAlgorithms
@@ -181,9 +176,8 @@ It connects data structures with the broader skills required for software engine
 
 Following this order helps you build strong fundamentals before moving into interview patterns and larger engineering concepts.
 
----
 
-# Study Tips
+### Study Tips
 
 For every new data structure you learn:
 
@@ -198,5 +192,4 @@ Consistency matters far more than speed. A strong understanding of the fundament
 ---
 
 Created by **@codewithboi**
-
-Helping developers learn through curated, practical resources.
+Helping data engineers and developers learn through curated, practical resources.
