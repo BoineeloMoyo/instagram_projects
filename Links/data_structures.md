@@ -6,6 +6,8 @@ The repositories below are some of the best open-source resources available. The
 # What You Will Learn
 By exploring these repositories, you will gain a deeper understanding of:
 
+| ---- | ---- |
+
 ### Core Data Structures
 - Arrays
 - Linked Lists
