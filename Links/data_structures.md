@@ -1,5 +1,5 @@
 # Data Structures Resource Guide
-### Curated GitHub Repositories for Learning Data Structures & Algorithms
+### Curated by `@codewithboi`: GitHub Repositories for Learning Data Structures & Algorithms
 
 Understanding data structures is one of the most valuable investments you can make as a developer. Whether you're preparing for coding interviews, learning software engineering fundamentals, or improving problem-solving skills, mastering data structures will make you a stronger programmer.
 
