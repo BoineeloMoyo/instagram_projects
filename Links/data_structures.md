@@ -73,11 +73,9 @@ It is ideal when you want to quickly understand or review an implementation with
 
 ## 2. TheAlgorithms
 
-**GitHub Repository**  
-https://github.com/TheAlgorithms/Python
+**GitHub Repo**: https://github.com/TheAlgorithms/Python
 
 One of the largest and most respected open-source educational repositories on GitHub.
-
 TheAlgorithms contains implementations of hundreds of algorithms and data structures across many programming languages, making it an excellent reference regardless of your preferred language.
 
 ### What You Will Learn
@@ -92,15 +90,12 @@ TheAlgorithms contains implementations of hundreds of algorithms and data struct
 ### Why This Repository Is Valuable
 Seeing the same concepts implemented across different languages helps strengthen your understanding of programming fundamentals rather than language-specific syntax.
 
----
 
-# 3. trekhleb/javascript-algorithms
+## 3. trekhleb/javascript-algorithms
 
-**GitHub Repository**  
-https://github.com/trekhleb/javascript-algorithms
+**GitHub Repo**: https://github.com/trekhleb/javascript-algorithms
 
 One of the most popular educational repositories for learning algorithms and data structures in JavaScript.
-
 Each topic includes code examples, visual explanations, complexity analysis, and additional learning resources.
 
 ### What You Will Learn
@@ -113,7 +108,6 @@ Each topic includes code examples, visual explanations, complexity analysis, and
 ### Why This Repository Is Valuable
 It combines theory with practical implementation, making difficult concepts much easier to understand.
 
----
 
 # 4. ashishps1/awesome-leetcode-resources
 
