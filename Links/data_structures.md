@@ -56,8 +56,7 @@ By exploring these repositories, you will gain a deeper understanding of:
 
 ## 1. keon/algorithms
 
-**GitHub Repository**  
-https://github.com/keon/algorithms
+**GitHub Repo** : https://github.com/keon/algorithms
 
 A lightweight repository containing clean and minimal Python implementations of common data structures and algorithms.
 The code is intentionally simple, making it easy to understand how each data structure works without unnecessary complexity or lengthy explanations.
@@ -71,7 +70,6 @@ The code is intentionally simple, making it easy to understand how each data str
 ### Why This Repository Is Valuable
 It is ideal when you want to quickly understand or review an implementation without reading extensive documentation.
 
----
 
 ## 2. TheAlgorithms
 
