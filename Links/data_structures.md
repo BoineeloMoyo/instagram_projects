@@ -5,7 +5,53 @@ The repositories below are some of the best open-source resources available. The
 
 # What You Will Learn
 By exploring these repositories, you will gain a deeper understanding of:
+<table>
+<tr>
+<td valign="top" width="33%">
 
+### Core Data Structures
+
+- Arrays
+- Linked Lists
+- Stacks
+- Queues
+- Hash Tables
+- Trees
+- Binary Search Trees
+- Heaps
+- Graphs
+- Tries
+
+</td>
+
+<td valign="top" width="33%">
+
+### Algorithms
+
+- Searching
+- Sorting
+- Recursion
+- Dynamic Programming
+- Greedy Algorithms
+- Graph Traversal
+- Backtracking
+- Divide and Conquer
+
+</td>
+
+<td valign="top" width="33%">
+
+### Problem Solving
+
+- Pattern Recognition
+- Time & Space Complexity
+- Efficient Coding Techniques
+- Interview-Style Questions
+- Real-World Applications of Data Structures
+
+</td>
+</tr>
+</table>
 | ---- | ---- |
 
 ### Core Data Structures
