@@ -109,13 +109,11 @@ Each topic includes code examples, visual explanations, complexity analysis, and
 It combines theory with practical implementation, making difficult concepts much easier to understand.
 
 
-# 4. ashishps1/awesome-leetcode-resources
+## 4. ashishps1/awesome-leetcode-resources
 
-**GitHub Repository**  
-https://github.com/ashishps1/awesome-leetcode-resources
+**GitHub Repo**: https://github.com/ashishps1/awesome-leetcode-resources
 
 Rather than focusing only on solving individual problems, this repository teaches common problem-solving patterns used across coding interviews.
-
 Understanding these patterns allows you to recognize when particular data structures and algorithms should be applied.
 
 ### What You Will Learn
@@ -130,8 +128,6 @@ Understanding these patterns allows you to recognize when particular data struct
 
 ### Why This Repository Is Valuable
 Learning patterns helps you solve unfamiliar problems more effectively instead of memorizing solutions.
-
----
 
 # 5. jamiebuilds/itsy-bitsy-data-structures
 
