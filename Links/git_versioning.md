@@ -144,7 +144,7 @@ Excellent for beginners who want to understand *why* Git works before memorizing
 ### 5. Git, GitHub & GitHub Desktop for Beginners: by Coder Coder
 
 **YouTube Link:** https://www.youtube.com/watch?v=8Dd7KRpKeaE
-![Coder Coder GitHub Desktop](../assets/coder-coder-github.png)
+![Coder Coder GitHub Desktop](../assets/coder_coder.png)
 
 A practical guide that introduces Git alongside GitHub Desktop, making version control more approachable for visual learners.
 
