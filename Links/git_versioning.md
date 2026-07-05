@@ -121,7 +121,7 @@ It helps transform GitHub from simply a code hosting platform into an effective 
 
 ### 4. Git Tutorial For Dummies: by Nick White
 
-**YouTube Link:** https://www.youtube.com/watch?v=mJ-qvsxPHpY
+[**YouTube Link:**](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
 ![Nick White Git Tutorial](../assets/nickwhite.png)
 
 An approachable introduction that explains Git concepts using clear language and practical demonstrations without assuming previous experience.
