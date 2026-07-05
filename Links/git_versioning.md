@@ -105,8 +105,7 @@ It bridges the gap between learning Git commands and understanding how developer
 
 This guide focuses on becoming productive with GitHub itself, covering many of the tools and features developers use daily.
 
-### What You Will Learn
-
+##### What You Will Learn
 - GitHub interface
 - Repository management
 - Branch workflows
@@ -115,7 +114,7 @@ This guide focuses on becoming productive with GitHub itself, covering many of t
 - Issues
 - Project organization
 
-### Why This Resource Is Valuable
+##### Why This Resource Is Valuable
 
 It helps transform GitHub from simply a code hosting platform into an effective collaboration and project management tool.
 
