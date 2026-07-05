@@ -77,8 +77,7 @@ The explanations are beginner-friendly and focused on practical skills rather th
 
 ### 2. Git & GitHub Crash Course for Beginners (2026): by freeCodeCamp
 
-**YouTube Link:**  https://www.youtube.com/watch?v=mAFoROnOfHs
-
+[**YouTube Link:**](https://www.youtube.com/watch?v=mAFoROnOfHs)
 ![freeCodeCamp Git Course](../assets/git_fcc.png)
 
 A comprehensive introduction to Git and GitHub with an emphasis on collaborative development and professional workflows used by software teams.
@@ -100,7 +99,7 @@ It bridges the gap between learning Git commands and understanding how developer
 
 ### 3. The Only GitHub Guide You'll Ever Need: by Corbin
 
-**YouTube Link:** https://www.youtube.com/watch?v=pJYOG6klqj8
+[**YouTube Link:**](https://www.youtube.com/watch?v=pJYOG6klqj8)
 ![Corbin](../assets/corbin.png)
 
 This guide focuses on becoming productive with GitHub itself, covering many of the tools and features developers use daily.
