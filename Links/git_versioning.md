@@ -2,10 +2,6 @@
 ###### Created by Boi for @codewithboi 
 ### The Best YouTube Channels to Learn Git Version Control (Beginner to Advanced)
 
-Git is one of the most essential skills every developer should learn. Whether you're building personal projects, contributing to open source, or working as part of a software team, understanding version control is no longer optional.
-
-Git allows you to track changes, collaborate with other developers, recover previous versions of your code, and deploy projects with confidence. It is also one of the first tools you'll encounter in modern software development workflows, making it a foundational skill for programmers, data scientists, data engineers, DevOps engineers, and software developers.
-
 This guide brings together five high-quality YouTube resources that will help you build strong Git fundamentals and progress toward real-world collaborative workflows.
 
 This guide is ideal for:
