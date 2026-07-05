@@ -1,5 +1,5 @@
 # Git & GitHub Resource Guide
-###### Created by Boi for @codewithboi 
+###### *Created by Boi for @codewithboi*
 ### The Best YouTube Channels to Learn Git Version Control (Beginner to Advanced)
 
 This guide brings together five high-quality YouTube resources that will help you build strong Git fundamentals and progress toward real-world collaborative workflows.
