@@ -164,42 +164,27 @@ Perfect for developers who prefer learning Git through graphical tools before tr
 # Practice Project
 
 After completing these tutorials, create your own Git workflow:
-
 Project Folder
-
 ↓
-
 Initialize Git Repository
-
 ↓
-
 Create Multiple Commits
-
 ↓
-
 Create a Feature Branch
-
 ↓
-
 Merge the Branch
-
 ↓
-
 Push to GitHub
-
 ↓
-
 Open a Pull Request
-
 ↓
-
 Deploy Your Project
 
 Completing this workflow will give you hands-on experience with the commands and collaboration patterns used by professional software teams.
 
 ---
 
-# Final Advice
+#### Final Advice
 
 Learning Git is not about memorizing commands. It is about understanding how software evolves over time.
 
@@ -207,6 +192,5 @@ The best way to become confident with Git is to use it on every project you buil
 
 ---
 
-Created by **@codewithboi**
-
-Helping developers learn through curated, practical resources.
+Created by *@codewithboi*
+*Helping programmers learn through curated, practical resources.*
