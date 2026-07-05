@@ -4,18 +4,7 @@
 
 This guide brings together five high-quality YouTube resources that will help you build strong Git fundamentals and progress toward real-world collaborative workflows.
 
-This guide is ideal for:
-- Beginner Programmers
-- Software Engineers
-- Data Scientists
-- Data Engineers
-- Web Developers
-- Computer Science Students
-- Anyone using GitHub for portfolio projects
-
----
-
-# What You Will Learn
+### What You Will Learn
 
 <table>
 <tr>
