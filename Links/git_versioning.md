@@ -191,4 +191,5 @@ The best way to become confident with Git is to use it on every project you buil
 ---
 
 Created by *@codewithboi*
+![Follow](https://img.shields.io/badge/Instagram-@codewithboi-833AB4?style=for-the-badge&logo=instagram&logoColor=white)
 *Helping programmers learn through curated, practical resources.*
