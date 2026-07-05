@@ -1,0 +1,292 @@
+# Git & GitHub Resource Guide
+### The Best YouTube Channels to Learn Git Version Control (Beginner to Advanced)
+
+Git is one of the most essential skills every developer should learn. Whether you're building personal projects, contributing to open source, or working as part of a software team, understanding version control is no longer optional.
+
+Git allows you to track changes, collaborate with other developers, recover previous versions of your code, and deploy projects with confidence. It is also one of the first tools you'll encounter in modern software development workflows, making it a foundational skill for programmers, data scientists, data engineers, DevOps engineers, and software developers.
+
+This guide brings together five high-quality YouTube resources that will help you build strong Git fundamentals and progress toward real-world collaborative workflows.
+
+This guide is ideal for:
+- Beginner Programmers
+- Software Engineers
+- Data Scientists
+- Data Engineers
+- Web Developers
+- Computer Science Students
+- Anyone using GitHub for portfolio projects
+
+---
+
+# What You Will Learn
+
+<table>
+<tr>
+
+<td valign="top" width="33%">
+
+### Git Fundamentals
+
+- What Git is
+- Installing Git
+- Creating repositories
+- Commits
+- Branches
+- Merging
+- Git history
+- Undoing changes
+
+</td>
+
+<td valign="top" width="33%">
+
+### GitHub Workflows
+
+- Remote repositories
+- Clone
+- Push
+- Pull
+- Pull Requests
+- Forking
+- Collaboration
+- GitHub Desktop
+
+</td>
+
+<td valign="top" width="33%">
+
+### Professional Development
+
+- Version control best practices
+- Team collaboration
+- Conflict resolution
+- Branching strategies
+- Portfolio management
+- Open source contributions
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# Recommended Learning Order
+
+1. Git Tutorial For Dummies
+2. Learn Git and GitHub in 1 Hour
+3. Git & GitHub Crash Course for Beginners
+4. Git, GitHub & GitHub Desktop for Beginners
+5. The Only GitHub Guide You'll Ever Need
+
+Following this order builds a strong foundation before introducing professional workflows and advanced Git usage.
+
+---
+
+# 1. Learn Git and GitHub in 1 Hour
+
+### Creator
+Alex The Analyst
+
+**YouTube**  
+https://www.youtube.com/watch?v=lLoJHifWTRw&t=80s
+
+**Image**
+
+```md
+![Alex The Analyst Git Tutorial](../assets/alex-the-analyst-git.png)
+```
+
+This course provides an excellent introduction to Git and GitHub using practical examples that are easy to follow. It is designed for complete beginners who want to start using version control immediately.
+
+### What You Will Learn
+
+- Git fundamentals
+- Creating repositories
+- Commit workflow
+- Branches
+- GitHub basics
+- Repository management
+
+### Why This Resource Is Valuable
+
+The explanations are beginner-friendly and focused on practical skills rather than theory.
+
+---
+
+# 2. Git & GitHub Crash Course for Beginners (2026)
+
+### Creator
+freeCodeCamp.org
+
+**YouTube**  
+https://www.youtube.com/watch?v=mAFoROnOfHs
+
+**Image**
+
+```md
+![freeCodeCamp Git Course](../assets/freecodecamp-git.png)
+```
+
+A comprehensive introduction to Git and GitHub with an emphasis on collaborative development and professional workflows used by software teams.
+
+### What You Will Learn
+
+- Local repositories
+- Remote repositories
+- Clone
+- Push
+- Pull
+- Pull Requests
+- Collaboration workflows
+- Git best practices
+
+### Why This Resource Is Valuable
+
+It bridges the gap between learning Git commands and understanding how developers collaborate on real software projects.
+
+---
+
+# 3. The Only GitHub Guide You'll Ever Need
+
+### Creator
+Corbin
+
+**YouTube**  
+https://www.youtube.com/watch?v=pJYOG6klqj8
+
+**Image**
+
+```md
+![Corbin GitHub Guide](../assets/corbin-github-guide.png)
+```
+
+This guide focuses on becoming productive with GitHub itself, covering many of the tools and features developers use daily.
+
+### What You Will Learn
+
+- GitHub interface
+- Repository management
+- Branch workflows
+- Collaboration
+- Pull Requests
+- Issues
+- Project organization
+
+### Why This Resource Is Valuable
+
+It helps transform GitHub from simply a code hosting platform into an effective collaboration and project management tool.
+
+---
+
+# 4. Git Tutorial For Dummies
+
+### Creator
+Nick White
+
+**YouTube**  
+https://www.youtube.com/watch?v=mJ-qvsxPHpY
+
+**Image**
+
+```md
+![Nick White Git Tutorial](../assets/nick-white-git.png)
+```
+
+An approachable introduction that explains Git concepts using clear language and practical demonstrations without assuming previous experience.
+
+### What You Will Learn
+
+- Version control basics
+- Repository creation
+- Commits
+- Branches
+- Merging
+- Everyday Git commands
+
+### Why This Resource Is Valuable
+
+Excellent for beginners who want to understand *why* Git works before memorizing commands.
+
+---
+
+# 5. Git, GitHub & GitHub Desktop for Beginners
+
+### Creator
+Coder Coder
+
+**YouTube**  
+https://www.youtube.com/watch?v=8Dd7KRpKeaE
+
+**Image**
+
+```md
+![Coder Coder GitHub Desktop](../assets/coder-coder-github.png)
+```
+
+A practical guide that introduces Git alongside GitHub Desktop, making version control more approachable for visual learners.
+
+### What You Will Learn
+
+- GitHub Desktop
+- Repository management
+- Commits
+- Branches
+- Synchronizing projects
+- Visual Git workflows
+
+### Why This Resource Is Valuable
+
+Perfect for developers who prefer learning Git through graphical tools before transitioning to the command line.
+
+---
+
+# Practice Project
+
+After completing these tutorials, create your own Git workflow:
+
+Project Folder
+
+↓
+
+Initialize Git Repository
+
+↓
+
+Create Multiple Commits
+
+↓
+
+Create a Feature Branch
+
+↓
+
+Merge the Branch
+
+↓
+
+Push to GitHub
+
+↓
+
+Open a Pull Request
+
+↓
+
+Deploy Your Project
+
+Completing this workflow will give you hands-on experience with the commands and collaboration patterns used by professional software teams.
+
+---
+
+# Final Advice
+
+Learning Git is not about memorizing commands. It is about understanding how software evolves over time.
+
+The best way to become confident with Git is to use it on every project you build. Commit your work regularly, experiment with branches, make mistakes, and learn how to recover from them. These habits will prepare you for collaborative development and make you a more effective programmer.
+
+---
+
+Created by **@codewithboi**
+
+Helping developers learn through curated, practical resources.
