@@ -77,10 +77,7 @@ The explanations are beginner-friendly and focused on practical skills rather th
 
 ### 2. Git & GitHub Crash Course for Beginners (2026): by freeCodeCamp
 
-[**YouTube Link**]
-https://www.youtube.com/watch?v=mAFoROnOfHs
-
-**Image**
+**YouTube Link:**  https://www.youtube.com/watch?v=mAFoROnOfHs
 
 ```md
 ![freeCodeCamp Git Course](../assets/freecodecamp-git.png)
