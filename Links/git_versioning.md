@@ -120,12 +120,9 @@ It helps transform GitHub from simply a code hosting platform into an effective 
 
 ---
 
-# 4. Git Tutorial For Dummies
+### 4. Git Tutorial For Dummies: by Nick White
 
-### Creator
-Nick White
-
-[**YouTube Link**]
+**YouTube Link:**
 https://www.youtube.com/watch?v=mJ-qvsxPHpY
 
 **Image**
