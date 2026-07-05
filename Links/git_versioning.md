@@ -58,7 +58,7 @@ This guide brings together five high-quality YouTube resources that will help yo
 ### 1. Learn Git and GitHub in 1 Hour: by Alex The Analyst
 
 [**YouTube Link**](https://www.youtube.com/watch?v=lLoJHifWTRw&t=80s)
-![Alex The Analyst Git Tutorial](../assets/alex-the-analyst-git.png)
+![Alex](../assets/alex.png)
 Provides an excellent introduction to Git and GitHub using practical examples that are easy to follow. It is designed for complete beginners who want to start using version control immediately.
 
 ### What You Will Learn
