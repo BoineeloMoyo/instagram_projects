@@ -141,10 +141,7 @@ Excellent for beginners who want to understand *why* Git works before memorizing
 
 ---
 
-# 5. Git, GitHub & GitHub Desktop for Beginners
-
-### Creator
-Coder Coder
+### 5. Git, GitHub & GitHub Desktop for Beginners: by Coder Coder
 
 [**YouTube Link**]
 https://www.youtube.com/watch?v=8Dd7KRpKeaE
