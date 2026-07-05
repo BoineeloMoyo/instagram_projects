@@ -55,19 +55,6 @@ This guide brings together five high-quality YouTube resources that will help yo
 </tr>
 </table>
 
----
-
-# Recommended Learning Order
-
-1. Git Tutorial For Dummies
-2. Learn Git and GitHub in 1 Hour
-3. Git & GitHub Crash Course for Beginners
-4. Git, GitHub & GitHub Desktop for Beginners
-5. The Only GitHub Guide You'll Ever Need
-
-Following this order builds a strong foundation before introducing professional workflows and advanced Git usage.
-
----
 
 # 1. Learn Git and GitHub in 1 Hour
 
