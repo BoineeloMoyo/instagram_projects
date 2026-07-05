@@ -59,11 +59,9 @@ This guide brings together five high-quality YouTube resources that will help yo
 
 [**YouTube Link**](https://www.youtube.com/watch?v=lLoJHifWTRw&t=80s)
 ![Alex The Analyst Git Tutorial](../assets/alex-the-analyst-git.png)
-
-This course provides an excellent introduction to Git and GitHub using practical examples that are easy to follow. It is designed for complete beginners who want to start using version control immediately.
+Provides an excellent introduction to Git and GitHub using practical examples that are easy to follow. It is designed for complete beginners who want to start using version control immediately.
 
 ### What You Will Learn
-
 - Git fundamentals
 - Creating repositories
 - Commit workflow
@@ -72,7 +70,6 @@ This course provides an excellent introduction to Git and GitHub using practical
 - Repository management
 
 ### Why This Resource Is Valuable
-
 The explanations are beginner-friendly and focused on practical skills rather than theory.
 
 ---
