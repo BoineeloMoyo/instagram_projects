@@ -98,19 +98,10 @@ It bridges the gap between learning Git commands and understanding how developer
 
 ---
 
-# 3. The Only GitHub Guide You'll Ever Need
+### 3. The Only GitHub Guide You'll Ever Need: by Corbin
 
-### Creator
-Corbin
-
-[**YouTube Link**]
-https://www.youtube.com/watch?v=pJYOG6klqj8
-
-**Image**
-
-```md
-![Corbin GitHub Guide](../assets/corbin-github-guide.png)
-```
+**YouTube Link:** https://www.youtube.com/watch?v=pJYOG6klqj8
+![Corbin](../assets/corbin.png)
 
 This guide focuses on becoming productive with GitHub itself, covering many of the tools and features developers use daily.
 
