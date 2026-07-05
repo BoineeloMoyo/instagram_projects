@@ -59,6 +59,7 @@ This guide brings together five high-quality YouTube resources that will help yo
 
 [**YouTube Link**](https://www.youtube.com/watch?v=lLoJHifWTRw&t=80s)
 ![Alex](../assets/alex.png)
+
 Provides an excellent introduction to Git and GitHub using practical examples that are easy to follow. It is designed for complete beginners who want to start using version control immediately.
 
 ### What You Will Learn
@@ -74,7 +75,7 @@ The explanations are beginner-friendly and focused on practical skills rather th
 
 ---
 
-# 2. Git & GitHub Crash Course for Beginners (2026)
+### 2. Git & GitHub Crash Course for Beginners (2026)
 
 ### Creator
 freeCodeCamp.org
