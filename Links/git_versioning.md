@@ -148,8 +148,7 @@ Excellent for beginners who want to understand *why* Git works before memorizing
 
 A practical guide that introduces Git alongside GitHub Desktop, making version control more approachable for visual learners.
 
-### What You Will Learn
-
+##### What You Will Learn
 - GitHub Desktop
 - Repository management
 - Commits
@@ -157,8 +156,7 @@ A practical guide that introduces Git alongside GitHub Desktop, making version c
 - Synchronizing projects
 - Visual Git workflows
 
-### Why This Resource Is Valuable
-
+##### Why This Resource Is Valuable
 Perfect for developers who prefer learning Git through graphical tools before transitioning to the command line.
 
 ---
