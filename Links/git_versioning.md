@@ -57,7 +57,7 @@ This guide brings together five high-quality YouTube resources that will help yo
 
 ### 1. Learn Git and GitHub in 1 Hour: by Alex The Analyst
 
-**YouTube**  
+**YouTube Link:**  
 https://www.youtube.com/watch?v=lLoJHifWTRw&t=80s
 
 **Image**
