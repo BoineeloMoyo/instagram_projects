@@ -127,8 +127,7 @@ It helps transform GitHub from simply a code hosting platform into an effective 
 
 An approachable introduction that explains Git concepts using clear language and practical demonstrations without assuming previous experience.
 
-### What You Will Learn
-
+##### What You Will Learn
 - Version control basics
 - Repository creation
 - Commits
@@ -136,7 +135,7 @@ An approachable introduction that explains Git concepts using clear language and
 - Merging
 - Everyday Git commands
 
-### Why This Resource Is Valuable
+##### Why This Resource Is Valuable
 
 Excellent for beginners who want to understand *why* Git works before memorizing commands.
 
