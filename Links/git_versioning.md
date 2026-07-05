@@ -77,7 +77,7 @@ The explanations are beginner-friendly and focused on practical skills rather th
 
 ### 2. Git & GitHub Crash Course for Beginners (2026): by freeCodeCamp
 
-**YouTube**  
+[**YouTube Link**]
 https://www.youtube.com/watch?v=mAFoROnOfHs
 
 **Image**
@@ -110,7 +110,7 @@ It bridges the gap between learning Git commands and understanding how developer
 ### Creator
 Corbin
 
-**YouTube**  
+[**YouTube Link**]
 https://www.youtube.com/watch?v=pJYOG6klqj8
 
 **Image**
@@ -142,7 +142,7 @@ It helps transform GitHub from simply a code hosting platform into an effective 
 ### Creator
 Nick White
 
-**YouTube**  
+[**YouTube Link**]
 https://www.youtube.com/watch?v=mJ-qvsxPHpY
 
 **Image**
@@ -173,7 +173,7 @@ Excellent for beginners who want to understand *why* Git works before memorizing
 ### Creator
 Coder Coder
 
-**YouTube**  
+[**YouTube Link**]
 https://www.youtube.com/watch?v=8Dd7KRpKeaE
 
 **Image**
