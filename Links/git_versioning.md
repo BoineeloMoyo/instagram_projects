@@ -79,14 +79,11 @@ The explanations are beginner-friendly and focused on practical skills rather th
 
 **YouTube Link:**  https://www.youtube.com/watch?v=mAFoROnOfHs
 
-```md
-![freeCodeCamp Git Course](../assets/freecodecamp-git.png)
-```
+![freeCodeCamp Git Course](../assets/git_fcc.png)
 
 A comprehensive introduction to Git and GitHub with an emphasis on collaborative development and professional workflows used by software teams.
 
-### What You Will Learn
-
+#### What You Will Learn
 - Local repositories
 - Remote repositories
 - Clone
@@ -96,8 +93,7 @@ A comprehensive introduction to Git and GitHub with an emphasis on collaborative
 - Collaboration workflows
 - Git best practices
 
-### Why This Resource Is Valuable
-
+#### Why This Resource Is Valuable
 It bridges the gap between learning Git commands and understanding how developers collaborate on real software projects.
 
 ---
