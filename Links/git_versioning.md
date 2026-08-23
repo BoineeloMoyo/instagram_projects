@@ -1,4 +1,5 @@
 # Git & GitHub Resource Guide
+
 ![Follow](https://img.shields.io/badge/Instagram-@codewithboi-833AB4?style=for-the-badge&logo=instagram&logoColor=white)
 ### The Best YouTube Channels to Learn Git Version Control (Beginner to Advanced)
 
@@ -12,7 +13,6 @@ This guide brings together five high-quality YouTube resources that will help yo
 <td valign="top" width="33%">
 
 ### Git Fundamentals
-
 - What Git is
 - Installing Git
 - Creating repositories
@@ -23,11 +23,9 @@ This guide brings together five high-quality YouTube resources that will help yo
 - Undoing changes
 
 </td>
-
 <td valign="top" width="33%">
 
 ### GitHub Workflows
-
 - Remote repositories
 - Clone
 - Push
@@ -42,7 +40,6 @@ This guide brings together five high-quality YouTube resources that will help yo
 <td valign="top" width="33%">
 
 ### Professional Development
-
 - Version control best practices
 - Team collaboration
 - Conflict resolution
@@ -51,7 +48,6 @@ This guide brings together five high-quality YouTube resources that will help yo
 - Open source contributions
 
 </td>
-
 </tr>
 </table>
 
@@ -98,7 +94,6 @@ It bridges the gap between learning Git commands and understanding how developer
 ---
 
 ### 3. The Only GitHub Guide You'll Ever Need: by Corbin
-
 [**YouTube Link:**](https://www.youtube.com/watch?v=pJYOG6klqj8)
 ![Corbin](../assets/corbin.png)
 
