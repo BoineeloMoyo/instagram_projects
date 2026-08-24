@@ -47,7 +47,7 @@ Use the free Databricks Community Edition. Document every layer of your pipeline
 ## 3. SQL Data Warehouse from Scratch
 **By Data With Baraa** : [**Youtube Tutorial:** ](https://youtu.be/9GVqKuTVANE?si=ogHLDgB_HP6JC0VU)
 
-![Baraa](../assets/dwb.png)
+![baraa](../assets/dwb.png)
 
 ### What you will learn and build:
 * **A full data warehouse from zero**, including designing schemas, writing ETL scripts, and building fact and dimension tables. This is the exact architecture used inside 90 percent of companies with a data team.
@@ -61,6 +61,8 @@ Add an entity relationship diagram (ERD) to your README. Free tools like dbdiagr
 
 ## 4. Intro to SQL Project | Data Engineer Portfolio Project
 **By Data With Baraa** : [**Youtube Tutorial:** ](https://youtu.be/YX9d7Q7MN9M?si=IjdZ-UIEOehFG_eF)
+
+![baraa](../assets/sql.png)
 
 ### What you will learn and build:
 * **A complete end to end SQL portfolio project** you can drop straight onto your CV. Perfect starter if the Data Warehouse project above feels like too much for week one.
