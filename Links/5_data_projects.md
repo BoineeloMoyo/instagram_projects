@@ -17,6 +17,7 @@ Let us get into it.
 **By freeCodeCamp** : [**Youtube Tutorial:** ](https://youtu.be/FTpmwX94_Yo?si=gVPYDxy8igeHTBJ-)
 
 ![freecodecamp](../assets/dataeng.png)
+
 ### What you will learn and build:
 
 * **Exploratory Data Analysis (EDA) on real business data** using pandas, numpy and visualisation libraries. You will learn how to actually *interrogate* a dataset instead of just running `.describe()` and hoping for the best.
@@ -30,6 +31,8 @@ Do not just follow along. Pick a different dataset (Kaggle has thousands), apply
 
 ## 2. End to End Data Engineering Project using Databricks
 **By codebasics**: [**Youtube Tutorial:** ](https://youtu.be/U6ZUKWdfSLY?si=CUZAPgRN1RPUGd5l)
+
+![codebasics](../assets/codebasics.png)
 
 ### What you will learn and build:
 * **The full data engineering pipeline** from raw data ingestion to a clean analytics ready layer, using Databricks (the tool that shows up in almost every senior data role posting in the EU right now).
