@@ -29,8 +29,7 @@ Do not just follow along. Pick a different dataset (Kaggle has thousands), apply
 ---
 
 ## 2. End to End Data Engineering Project using Databricks
-**By codebasics**
-**Youtube Tutorial:** https://youtu.be/U6ZUKWdfSLY?si=CUZAPgRN1RPUGd5l
+**By codebasics**: [**Youtube Tutorial:** ](https://youtu.be/U6ZUKWdfSLY?si=CUZAPgRN1RPUGd5l)
 
 ### What you will learn and build:
 * **The full data engineering pipeline** from raw data ingestion to a clean analytics ready layer, using Databricks (the tool that shows up in almost every senior data role posting in the EU right now).
