@@ -83,11 +83,11 @@ That is the version of you that gets hired.
 
 ## Your Action Plan Before December 31
 
-✅ Pick **2 projects** from this list (not 5, not 3, just 2)
-✅ Block **1 hour daily** on your calendar. Non negotiable.
-✅ Create a fresh GitHub repo for each with a proper README
-✅ Post your progress publicly (LinkedIn, X, or here) every Friday
-✅ By New Year's Eve, add both to your CV and LinkedIn featured section
+* Pick **2 projects** from this list (not 5, not 3, just 2)
+* Block **1 hour daily** on your calendar. Non negotiable.
+* Create a fresh GitHub repo for each with a proper README
+* Post your progress publicly (LinkedIn, X, or here) every Friday
+* By New Year's Eve, add both to your CV and LinkedIn featured section
 
 You are not too late. You are exactly on time. Lock in.
 
