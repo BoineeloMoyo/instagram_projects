@@ -47,6 +47,8 @@ Use the free Databricks Community Edition. Document every layer of your pipeline
 ## 3. SQL Data Warehouse from Scratch
 **By Data With Baraa** : [**Youtube Tutorial:** ](https://youtu.be/9GVqKuTVANE?si=ogHLDgB_HP6JC0VU)
 
+![codebasics](../assets/codebasics.png)
+
 ### What you will learn and build:
 * **A full data warehouse from zero**, including designing schemas, writing ETL scripts, and building fact and dimension tables. This is the exact architecture used inside 90 percent of companies with a data team.
 * **Advanced SQL** (window functions, CTEs, stored procedures, indexing). If SQL was ever the thing that scared you in interviews, this project will make it your strongest weapon.
