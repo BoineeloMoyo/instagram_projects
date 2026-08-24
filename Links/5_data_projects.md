@@ -15,7 +15,7 @@ Let us get into it.
 
 ## 1. Hands on Projects with EDA, AB Testing & Business Intelligence
 **By freeCodeCamp**
-**Youtube Tutorial:** https://youtu.be/FTpmwX94_Yo?si=gVPYDxy8igeHTBJ-
+[**Youtube Tutorial:** ](https://youtu.be/FTpmwX94_Yo?si=gVPYDxy8igeHTBJ-)
 
 ### What you will learn and build:
 
