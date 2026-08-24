@@ -17,7 +17,7 @@ Let us get into it.
 **By freeCodeCamp**
 
 [**Youtube Tutorial:** ](https://youtu.be/FTpmwX94_Yo?si=gVPYDxy8igeHTBJ-)
-
+![freecodecamp](../assets/dataeng.png)
 ### What you will learn and build:
 
 * **Exploratory Data Analysis (EDA) on real business data** using pandas, numpy and visualisation libraries. You will learn how to actually *interrogate* a dataset instead of just running `.describe()` and hoping for the best.
