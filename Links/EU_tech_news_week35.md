@@ -1,4 +1,4 @@
-# 🇪🇺 Code With Boi — EU Tech News
+# 🇪🇺 Code With Boi :EU Tech News
 ## The Receipts · Week 35
 
 > **Want the sources behind this week's stories?**
@@ -17,7 +17,7 @@
 
 ### Sources
 
-- **Reuters** — [NVIDIA talks to acquire Hugging Face in $13 billion deal, Business Insider reports](https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/)
+- **Reuters** :[NVIDIA talks to acquire Hugging Face in $13 billion deal, Business Insider reports](https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/)
 
 > ⚠️ **Editorial note:** This story should be described as **reported / reportedly** unless and until NVIDIA or Hugging Face officially confirms the transaction.
 
@@ -31,7 +31,7 @@
 
 ### Sources
 
-- **Waymo — Primary source:** [Servus München: Waymo is coming to Germany](https://waymo.com/blog/2026/08/waymo-in-munich/)
+- **Waymo :Primary source:** [Servus München: Waymo is coming to Germany](https://waymo.com/blog/2026/08/waymo-in-munich/)
 - **Financial Times:** [Waymo's Munich plans and Germany's autonomous-driving market](https://www.ft.com/content/21ef2743-2cc2-41ef-8329-84adce69d975)
 
 ---
@@ -44,7 +44,7 @@
 
 ### Sources
 
-- **OpenAI — Primary source:** [ChatGPT Ads expand across Europe](https://openai.com/index/chatgpt-ads-expands-across-europe/)
+- **OpenAI :Primary source:** [ChatGPT Ads expand across Europe](https://openai.com/index/chatgpt-ads-expands-across-europe/)
 
 > **Source note:** OpenAI's announcement is the primary source for the European rollout and the applicable user-plan details.
 
@@ -58,8 +58,8 @@
 
 ### Sources
 
-- **AWS — Primary source:** [AWS and DuckLabs: Building the future of analytics together](https://aws.amazon.com/blogs/big-data/aws-and-ducklabs-building-the-future-of-analytics-together/)
-- **DuckLabs — Primary source:** [DuckLabs to join AWS](https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws)
+- **AWS :Primary source:** [AWS and DuckLabs: Building the future of analytics together](https://aws.amazon.com/blogs/big-data/aws-and-ducklabs-building-the-future-of-analytics-together/)
+- **DuckLabs :Primary source:** [DuckLabs to join AWS](https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws)
 
 > **Important:** DuckDB remains open source under the MIT licence, with the DuckDB Foundation continuing to steward the project.
 
@@ -69,7 +69,7 @@
 
 ### Poland asks the EU to fine Meta €250 million over scam advertising
 
-**Why it matters:** European platform regulation is increasingly extending into fraud, advertising and platform accountability — not just privacy.
+**Why it matters:** European platform regulation is increasingly extending into fraud, advertising and platform accountability :not just privacy.
 
 ### Sources
 
@@ -92,7 +92,7 @@
 
 A secondary report currently available is:
 
-- [AI in Europe — Revolut Research / PRAGMA](https://aiineurope.co/startups/revolut-research-pragma-in-house-bank-ai-models-2026-08-26)
+- [AI in Europe :Revolut Research / PRAGMA](https://aiineurope.co/startups/revolut-research-pragma-in-house-bank-ai-models-2026-08-26)
 
 > ⚠️ **Editorial note:** Keep this story out of the final “receipts” version unless Revolut, NVIDIA, or another sufficiently authoritative source independently confirms the specific PRAGMA claims.
 
@@ -102,11 +102,11 @@ A secondary report currently available is:
 
 ### EU AI rules are moving from legislation toward enforcement
 
-**Why it matters:** For companies building or deploying AI in Europe, compliance is becoming part of product development — alongside risk management, transparency, documentation and human oversight.
+**Why it matters:** For companies building or deploying AI in Europe, compliance is becoming part of product development :alongside risk management, transparency, documentation and human oversight.
 
 ### Sources
 
-- **European Commission — Primary source:** [When does enforcement start? — AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start)
+- **European Commission :Primary source:** [When does enforcement start? : AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start)
 
 > **Important:** The AI Act does not have one single “everything starts today” deadline. Different obligations apply at different stages. Always check the Commission's current timeline when publishing.
 
@@ -116,7 +116,7 @@ A secondary report currently available is:
 
 ### Bosch plans to manufacture humanoid robots in Germany
 
-**Why it matters:** Humanoid robotics creates opportunities well beyond mechanical engineering — including computer vision, AI, simulation, sensors, edge computing, perception and industrial automation.
+**Why it matters:** Humanoid robotics creates opportunities well beyond mechanical engineering : including computer vision, AI, simulation, sensors, edge computing, perception and industrial automation.
 
 ### Source status
 
@@ -124,7 +124,7 @@ A secondary report currently available is:
 
 A secondary report currently available is:
 
-- [AI in Europe — Bosch / humanoid robotics](https://aiineurope.co/news/bosch-buehl-humanoid-robot-contract-manufacturing-2026-08-24)
+- [AI in Europe : Bosch / humanoid robotics](https://aiineurope.co/news/bosch-buehl-humanoid-robot-contract-manufacturing-2026-08-24)
 
 > ⚠️ **Editorial note:** Verify this against Bosch's official newsroom before presenting the claim as confirmed.
 
@@ -134,10 +134,10 @@ A secondary report currently available is:
 
 Code With Boi prioritises:
 
-1. **Primary sources** — company announcements, government institutions and official organisations.
-2. **High-quality independent reporting** — especially Reuters and established European publications.
-3. **Cross-checking** — important claims are checked against more than one source where possible.
-4. **Clear uncertainty** — reported claims are labelled as reported rather than presented as confirmed facts.
+1. **Primary sources** : company announcements, government institutions and official organisations.
+2. **High-quality independent reporting** : especially Reuters and established European publications.
+3. **Cross-checking** : important claims are checked against more than one source where possible.
+4. **Clear uncertainty** : reported claims are labelled as reported rather than presented as confirmed facts.
 
 ---
 
