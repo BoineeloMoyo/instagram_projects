@@ -101,7 +101,7 @@ A secondary report currently available is:
 ---
 
 ### Source policy
-Code With Boi prioritises:
+codewithboi prioritises:
 
 1. **Primary sources** : company announcements, government institutions and official organisations.
 2. **High-quality independent reporting** : especially Reuters and established European publications.
