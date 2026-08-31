@@ -105,33 +105,13 @@ A secondary report currently available is:
 **Why it matters:** For companies building or deploying AI in Europe, compliance is becoming part of product development :alongside risk management, transparency, documentation and human oversight.
 
 ### Sources
-
 - **European Commission :Primary source:** [When does enforcement start? : AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start)
 
 > **Important:** The AI Act does not have one single “everything starts today” deadline. Different obligations apply at different stages. Always check the Commission's current timeline when publishing.
 
 ---
 
-## 08 · Bosch + Humanoid Robotics
-
-### Bosch plans to manufacture humanoid robots in Germany
-
-**Why it matters:** Humanoid robotics creates opportunities well beyond mechanical engineering : including computer vision, AI, simulation, sensors, edge computing, perception and industrial automation.
-
-### Source status
-
-**Primary-source verification recommended before publication.**
-
-A secondary report currently available is:
-
-- [AI in Europe : Bosch / humanoid robotics](https://aiineurope.co/news/bosch-buehl-humanoid-robot-contract-manufacturing-2026-08-24)
-
-> ⚠️ **Editorial note:** Verify this against Bosch's official newsroom before presenting the claim as confirmed.
-
----
-
-# 🔎 Source policy
-
+### Source policy
 Code With Boi prioritises:
 
 1. **Primary sources** : company announcements, government institutions and official organisations.
