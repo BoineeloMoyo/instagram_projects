@@ -1,9 +1,5 @@
 # 🇪🇺 Code With Boi :EU Tech News
 ## The Receipts · Week 35
-
-> **Want the sources behind this week's stories?**
->
-> Comment **NEWS** on the Code With Boi post and you'll receive this resource list.
 >
 > This page separates **primary sources** from independent reporting and flags stories that are reported rather than officially confirmed.
 
@@ -18,8 +14,6 @@
 ### Sources
 
 - **Reuters** :[NVIDIA talks to acquire Hugging Face in $13 billion deal, Business Insider reports](https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/)
-
-> ⚠️ **Editorial note:** This story should be described as **reported / reportedly** unless and until NVIDIA or Hugging Face officially confirms the transaction.
 
 ---
 
@@ -76,8 +70,6 @@
 - **Reuters:** [Poland asks EU to fine Meta $250 million, urges action against scams and false ads](https://www.reuters.com/world/europe/poland-asks-eu-fine-meta-250-million-urges-action-against-scams-false-ads-2026-08-27/)
 - **Notes from Poland:** [Poland asks EU to fine Meta €250m over scam Facebook ads](https://notesfrompoland.com/2026/08/27/poland-asks-eu-to-fine-meta-e250m-over-scam-facebook-ads/)
 
-> ⚠️ **Editorial note:** €250M is the amount Poland is **asking the European Commission to impose**. It should not be described as a €250M fine already imposed on Meta.
-
 ---
 
 ## 06 · Revolut + AI
@@ -94,14 +86,11 @@ A secondary report currently available is:
 
 - [AI in Europe :Revolut Research / PRAGMA](https://aiineurope.co/startups/revolut-research-pragma-in-house-bank-ai-models-2026-08-26)
 
-> ⚠️ **Editorial note:** Keep this story out of the final “receipts” version unless Revolut, NVIDIA, or another sufficiently authoritative source independently confirms the specific PRAGMA claims.
-
 ---
 
 ## 07 · EU AI Act
 
 ### EU AI rules are moving from legislation toward enforcement
-
 **Why it matters:** For companies building or deploying AI in Europe, compliance is becoming part of product development :alongside risk management, transparency, documentation and human oversight.
 
 ### Sources
