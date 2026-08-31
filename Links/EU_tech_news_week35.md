@@ -122,7 +122,6 @@ It's to give you **the links worth opening.**
 ---
 
 ### CODE WITH BOI
-
 **European tech · AI · Data · Programming**
 
 *Built for people building, studying and working in tech in Europe.*
