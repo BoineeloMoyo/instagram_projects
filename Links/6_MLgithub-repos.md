@@ -12,6 +12,7 @@
 **Repo:** [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
 
 **Maintained by:** Microsoft
+
 **Best for:** absolute beginners to GenAI
 
 A 21 lesson course that takes you from "what even is a token" to building real GenAI apps. Each lesson has a video, a written explainer, code samples, and a homework challenge.
@@ -30,6 +31,7 @@ A 21 lesson course that takes you from "what even is a token" to building real G
 **Repo:** [NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples)
 
 **Maintained by:** NVIDIA
+
 **Best for:** intermediate learners who want production grade code
 
 State of the art deep learning implementations, straight from the team building the GPUs that train these models. Every example is optimized for performance and comes with training scripts, benchmarks, and pretrained checkpoints.
@@ -48,6 +50,7 @@ State of the art deep learning implementations, straight from the team building 
 **Repo:** [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
 
 **Maintained by:** Microsoft
+
 **Best for:** anyone who wants to build agents, not just chatbots
 
 A 10 lesson course on building AI agents that can plan, use tools, and complete multi step tasks. This is the frontier right now, and Microsoft made it approachable.
@@ -66,6 +69,7 @@ A 10 lesson course on building AI agents that can plan, use tools, and complete 
 **Repo:** [eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch)
 
 **Maintained by:** Erik Linder Norén
+
 **Best for:** learners who want to understand ML at the math level
 
 Every classic ML algorithm implemented in pure Python and NumPy. No scikit learn, no PyTorch, no shortcuts. If you have ever used `.fit()` without knowing what happens next, this repo fixes that.
@@ -84,6 +88,7 @@ Every classic ML algorithm implemented in pure Python and NumPy. No scikit learn
 **Repo:** [trekhleb/homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning)
 
 **Maintained by:** Oleksii Trekhleb
+
 **Best for:** visual learners and Jupyter notebook people
 
 Similar spirit to ML From Scratch, but delivered as interactive Jupyter notebooks with clear math, plots, and explanations for each algorithm. Great as a companion or a gentler entry point.
@@ -102,6 +107,7 @@ Similar spirit to ML From Scratch, but delivered as interactive Jupyter notebook
 **Repo:** [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
 
 **Maintained by:** Microsoft
+
 **Best for:** developers who want their AI to actually do things
 
 Model Context Protocol is how modern AI apps connect to tools, data, and services. This course walks you through building MCP servers and clients from scratch, in multiple languages.
