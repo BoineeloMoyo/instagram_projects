@@ -10,6 +10,7 @@
 ## 1. Generative AI for Beginners
 
 **Repo:** [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
+
 **Maintained by:** Microsoft
 **Best for:** absolute beginners to GenAI
 
@@ -44,6 +45,7 @@ State of the art deep learning implementations, straight from the team building 
 ## 3. AI Agents for Beginners
 
 **Repo:** [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
+
 **Maintained by:** Microsoft
 **Best for:** anyone who wants to build agents, not just chatbots
 
@@ -61,6 +63,7 @@ A 10 lesson course on building AI agents that can plan, use tools, and complete 
 ## 4. ML From Scratch
 
 **Repo:** [eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch)
+
 **Maintained by:** Erik Linder Norén
 **Best for:** learners who want to understand ML at the math level
 
@@ -95,6 +98,7 @@ Similar spirit to ML From Scratch, but delivered as interactive Jupyter notebook
 ## 6. MCP for Beginners
 
 **Repo:** [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
+
 **Maintained by:** Microsoft
 **Best for:** developers who want their AI to actually do things
 
@@ -112,6 +116,7 @@ Model Context Protocol is how modern AI apps connect to tools, data, and service
 ## Bonus: Google Cloud Generative AI
 
 **Repo:** [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+
 **Maintained by:** Google Cloud
 **Best for:** anyone building GenAI on GCP or curious about Gemini
 
