@@ -28,6 +28,7 @@ A 21 lesson course that takes you from "what even is a token" to building real G
 ## 2. NVIDIA Deep Learning Examples
 
 **Repo:** [NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples)
+
 **Maintained by:** NVIDIA
 **Best for:** intermediate learners who want production grade code
 
@@ -81,6 +82,7 @@ Every classic ML algorithm implemented in pure Python and NumPy. No scikit learn
 ## 5. Homemade Machine Learning
 
 **Repo:** [trekhleb/homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning)
+
 **Maintained by:** Oleksii Trekhleb
 **Best for:** visual learners and Jupyter notebook people
 
