@@ -1,4 +1,5 @@
 # 5 Free Resources to Learn Data Engineering (€0, No Paywalls)
+### Curated by `@codewithboi`
 
 If I had to relearn data engineering with zero euros, these are the only 5 I'd use. Every resource below is 100% free.
 
@@ -70,5 +71,5 @@ If I had to relearn data engineering with zero euros, these are the only 5 I'd u
 ### How I'd use them
 Start the **Zoomcamp** to build, keep the **Handbook** bookmarked as your map, and move to **Kleppmann's lectures** once you've shipped a project. Run **Data Engineering Weekly** and **Seattle Data Guy** alongside the whole way.
 
-💾 Save this. 📤 Send it to the friend who's "starting next Monday".
+Save this.  Send it to the friend who's "starting next Monday".
 Follow **@codewithboi** for more data engineering content.
