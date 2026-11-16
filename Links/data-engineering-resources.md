@@ -52,6 +52,7 @@ If I had to relearn data engineering with zero euros, these are the only 5 I'd u
 **What you will learn:** How real companies build and run their data platforms, from lakehouse formats like Apache Iceberg to data contracts, data quality and streaming. Ananth also writes essays that question industry hype.
 
 **Value:** A few minutes a week keeps you current without doomscrolling. It's how senior engineers spot which ideas are gaining traction across the industry.
+
 **Link:** https://www.dataengineeringweekly.com
 
 ---
@@ -68,7 +69,9 @@ If I had to relearn data engineering with zero euros, these are the only 5 I'd u
 ---
 
 ### How I'd use them
-Start the **Zoomcamp** to build, keep the **Handbook** bookmarked as your map, and move to **Kleppmann's lectures** once you've shipped a project. Run **Data Engineering Weekly** and **Seattle Data Guy** alongside the whole way.
+Start the **Zoomcamp** to build, keep the **Handbook** bookmarked as your map, and move to **Kleppmann's lectures** once you've shipped a project. 
+
+* Run **Data Engineering Weekly** and **Seattle Data Guy** alongside the whole way.
 
 Save this.  Send it to the friend who's "starting next Monday".
 Follow **@codewithboi** for more data engineering content.
