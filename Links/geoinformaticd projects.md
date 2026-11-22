@@ -30,7 +30,7 @@ Star this repo so you can find it again.
 
 ## 1. Flood Mapping with SAR + Deep Learning
 
-![Flood mapping: Sentinel-1 before and during, U-Net, flood extent and impact](assets/01-flood-mapping.svg)
+![Flood mapping: Sentinel-1 before and during, U-Net, flood extent and impact](../assets/01-flood-mapping.svg)
 
 **What it is:** Map flood extent from Sentinel-1 radar (it works through clouds and at night), then estimate how many people and how many km of road are affected.
 
@@ -57,7 +57,7 @@ Star this repo so you can find it again.
 
 ## 2. Urban Heat Risk
 
-![Urban heat: land surface temperature grid, risk layers, priority blocks](assets/02-urban-heat.svg)
+![Urban heat: land surface temperature grid, risk layers, priority blocks](../assets/02-urban-heat.svg)
 
 **What it is:** Find the city blocks where extreme heat meets vulnerable people, and recommend the intervention for each one.
 
@@ -84,7 +84,7 @@ Star this repo so you can find it again.
 
 ## 3. Drought & Crop Stress Early Warning
 
-![Drought: parcel map with stress levels and NDVI anomaly during a heatwave](assets/03-drought-crop-stress.svg)
+![Drought: parcel map with stress levels and NDVI anomaly during a heatwave](../assets/03-drought-crop-stress.svg)
 
 **What it is:** Detect crop stress at parcel level during droughts and heatwaves, early enough to act before harvest.
 
@@ -110,7 +110,7 @@ Star this repo so you can find it again.
 
 ## 4. Air Pollution Exposure
 
-![Air pollution: coarse satellite NO2 downscaled to street level, schools above WHO guideline](assets/04-air-pollution.svg)
+![Air pollution: coarse satellite NO2 downscaled to street level, schools above WHO guideline](../assets/04-air-pollution.svg)
 
 **What it is:** Downscale satellite NO₂ to street level and find which schools exceed the WHO guideline.
 
@@ -136,7 +136,7 @@ Star this repo so you can find it again.
 
 ## 5. Healthcare Accessibility
 
-![Healthcare access: travel-time hex map and best location for a new clinic](assets/05-healthcare-access.svg)
+![Healthcare access: travel-time hex map and best location for a new clinic](../assets/05-healthcare-access.svg)
 
 **What it is:** Measure who can reach a clinic within 15 minutes by walking and public transport, then find the best location for the next one.
 
