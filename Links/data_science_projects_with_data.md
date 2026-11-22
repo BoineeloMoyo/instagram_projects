@@ -37,7 +37,7 @@
 
 ** The focus:** A probability is not a decision. Set thresholds from the **cost of each error**: a blocked real customer, a missed fraud, analyst time spent on review. Show the precision/recall trade-off in money, not just in AUC.
 
-** Build plan**
+**Build plan**
 1. Split the data by time, never randomly, so there is no leakage from the future.
 2. Baseline: logistic regression. Then try LightGBM or XGBoost.
 3. Handle class imbalance (about 3.5% fraud) with class weights or resampling, and evaluate with PR-AUC.
@@ -46,9 +46,9 @@
 
 **Stack:** `Python` `pandas` `scikit-learn` `LightGBM` `imbalanced-learn` `FastAPI` `Docker`
 
-** Data:** [IEEE-CIS Fraud Detection (Kaggle)](https://www.kaggle.com/c/ieee-fraud-detection). About 590K transactions and 400+ features. A free Kaggle account is enough.
+**Data:** [IEEE-CIS Fraud Detection (Kaggle)](https://www.kaggle.com/c/ieee-fraud-detection). About 590K transactions and 400+ features. A free Kaggle account is enough.
 
-** Why it matters:** Fraud is one of the biggest production ML use cases. Every bank, fintech and marketplace loses money both to missed fraud and to false blocks.
+**Why it matters:** Fraud is one of the biggest production ML use cases. Every bank, fintech and marketplace loses money both to missed fraud and to false blocks.
 
 ---
 
@@ -58,9 +58,9 @@
 
 **What it is:** A complaint comes in. Classify it, score its urgency, route it to the right team and retrieve similar past cases.
 
-** The focus:** You are building a triage system, not a chatbot. Every output field is a decision someone acts on. Write down where a human must stay in the loop. That responsible-use section is what makes it look production-grade.
+**The focus:** You are building a triage system, not a chatbot. Every output field is a decision someone acts on. Write down where a human must stay in the loop. That responsible-use section is what makes it look production-grade.
 
-** Build plan**
+**Build plan**
 1. Ingest from the API, then clean and deduplicate the narratives.
 2. Baseline: TF-IDF + logistic regression for product and issue. Then try a fine-tuned transformer.
 3. Add urgency scoring and team-routing rules.
@@ -69,9 +69,9 @@
 
 **Stack:** `Python` `scikit-learn` `Hugging Face Transformers` `sentence-transformers` `FAISS` / `Chroma` `FastAPI` `Streamlit`
 
-** Data:** [CFPB Consumer Complaint Database API](https://cfpb.github.io/api/ccdb/). Official US government data, updated daily, with personal details removed.
+**Data:** [CFPB Consumer Complaint Database API](https://cfpb.github.io/api/ccdb/). Official US government data, updated daily, with personal details removed.
 
-** Why it matters:** Support and compliance teams handle thousands of tickets a day. Faster routing means lower cost and less regulatory risk. It is also exactly the NLP + RAG skill set that applied AI roles hire for.
+**Why it matters:** Support and compliance teams handle thousands of tickets a day. Faster routing means lower cost and less regulatory risk. It is also exactly the NLP + RAG skill set that applied AI roles hire for.
 
 ---
 
@@ -92,9 +92,9 @@
 
 **Stack:** `Python` `Polars` `implicit` `LightGBM` `FastAPI`
 
-** Data:** [H&M Personalized Fashion Recommendations (Kaggle)](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations). 31M+ transactions, 1M+ customers, 100K+ products, with images and metadata.
+**Data:** [H&M Personalized Fashion Recommendations (Kaggle)](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations). 31M+ transactions, 1M+ customers, 100K+ products, with images and metadata.
 
-** Why it matters:** Recommendations drive a large share of e-commerce and streaming revenue. The size of this dataset forces you to solve real engineering problems.
+**Why it matters:** Recommendations drive a large share of e-commerce and streaming revenue. The size of this dataset forces you to solve real engineering problems.
 
 ---
 
@@ -104,9 +104,9 @@
 
 **What it is:** Flag the customers who are about to stop buying, and explain why for each one.
 
-** The focus:** There is no churn label, so **you define it**. Choose the inactivity window and defend that choice. A risk score only becomes useful when marketing can act on it, so explain every score with SHAP.
+**The focus:** There is no churn label, so **you define it**. Choose the inactivity window and defend that choice. A risk score only becomes useful when marketing can act on it, so explain every score with SHAP.
 
-** Build plan**
+**Build plan**
 1. Define the inactivity window and build the label.
 2. Engineer RFM (recency, frequency, monetary) and behavioral features. Handle cancellations and missing customer IDs.
 3. Baseline: logistic regression. Then try XGBoost.
@@ -115,9 +115,9 @@
 
 **Stack:** `Python` `pandas` `scikit-learn` `XGBoost` `SHAP` `Streamlit` `Prefect`
 
-** Data:** [Online Retail II (UCI)](https://archive.ics.uci.edu/dataset/502/online+retail+ii). About 1M real transactions. Free and no account needed.
+**Data:** [Online Retail II (UCI)](https://archive.ics.uci.edu/dataset/502/online+retail+ii). About 1M real transactions. Free and no account needed.
 
-** Why it matters:** Keeping a customer costs far less than acquiring a new one. Every subscription and retail business wants this model.
+**Why it matters:** Keeping a customer costs far less than acquiring a new one. Every subscription and retail business wants this model.
 
 ---
 
@@ -127,9 +127,9 @@
 
 **What it is:** Forecast demand at each station using trip history, weather and calendar features.
 
-** The focus:** The forecast is not the job. **The rebalancing decision is.** Forecast per station, not a citywide average, and flag stations that will run out of bikes or free docks.
+**The focus:** The forecast is not the job. **The rebalancing decision is.** Forecast per station, not a citywide average, and flag stations that will run out of bikes or free docks.
 
-** Build plan**
+**Build plan**
 1. Ingest trips and weather, then fix the schemas (station names and columns change over time).
 2. Join on station and hour, and add calendar features (holidays, weekday, hour).
 3. Baseline: seasonal naive. Then try LightGBM or Prophet for each station.
@@ -138,11 +138,11 @@
 
 **Stack:** `Python` `pandas` `LightGBM` / `Prophet` `Open-Meteo API` `Plotly Dash` / `Streamlit`
 
-** Data:**
+**Data:**
 - [Citi Bike System Data](https://citibikenyc.com/system-data). Trip files, updated monthly.
 - [Open-Meteo](https://open-meteo.com/). Free weather API, up to 10K calls a day.
 
-** Why it matters:** It proves you can merge messy sources and turn a forecast into an operational decision. That carries over directly to logistics, mobility and supply chain work.
+**Why it matters:** It proves you can merge messy sources and turn a forecast into an operational decision. That carries over directly to logistics, mobility and supply chain work.
 
 ---
 
