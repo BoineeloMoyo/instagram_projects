@@ -35,7 +35,7 @@
 
 **What it is:** Score every incoming transaction and decide whether to approve it, send it to a human or block it.
 
-** The focus:** A probability is not a decision. Set thresholds from the **cost of each error**: a blocked real customer, a missed fraud, analyst time spent on review. Show the precision/recall trade-off in money, not just in AUC.
+**The focus:** A probability is not a decision. Set thresholds from the **cost of each error**: a blocked real customer, a missed fraud, analyst time spent on review. Show the precision/recall trade-off in money, not just in AUC.
 
 **Build plan**
 1. Split the data by time, never randomly, so there is no leakage from the future.
@@ -81,9 +81,9 @@
 
 **What it is:** Predict the next 12 items each customer will buy.
 
-** The focus:** This is a two-stage system: candidate generation, then ranking. Beat the popularity baseline first. Evaluate with **MAP@12, Recall@K and NDCG**, not accuracy, and explain why. Return recommendations **with a reason**.
+**The focus:** This is a two-stage system: candidate generation, then ranking. Beat the popularity baseline first. Evaluate with **MAP@12, Recall@K and NDCG**, not accuracy, and explain why. Return recommendations **with a reason**.
 
-** Build plan**
+**Build plan**
 1. Baseline: the most popular items from the last week.
 2. Candidate generation with collaborative filtering (ALS or item-item).
 3. Rank the candidates with a learning-to-rank model (LightGBM ranker).
