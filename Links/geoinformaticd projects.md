@@ -5,11 +5,10 @@
 
 **Pick ONE. Build it end to end. Ship a map people can use.**
 
-⭐ Star this repo so you can find it again.
+Star this repo so you can find it again.
 
 ---
 
-## TL;DR
 
 | # | Project | Level | Language | Core skill |
 |---|---------|-------|----------|------------|
@@ -35,9 +34,9 @@
 
 **What it is:** Map flood extent from Sentinel-1 radar (it works through clouds and at night), then estimate how many people and how many km of road are affected.
 
-**🎯 The focus:** A flood mask alone helps no one. **Impact** does. Turn pixels into "12.4k people exposed, 38 km of roads cut" so responders know where to go first. Also beat a classic Otsu threshold before you reach for a U-Net.
+**The focus:** A flood mask alone helps no one. **Impact** does. Turn pixels into "12.4k people exposed, 38 km of roads cut" so responders know where to go first. Also beat a classic Otsu threshold before you reach for a U-Net.
 
-**🛠 Build plan**
+**Build plan**
 1. Baseline: Otsu thresholding on VH backscatter (dB), plus before/during change detection.
 2. Train a U-Net on labeled chips with TorchGeo or `segmentation-models-pytorch`.
 3. Remove false positives: mask permanent water and use terrain (HAND/slope) to drop radar shadow.
@@ -46,13 +45,13 @@
 
 **Stack:** `Python` `rasterio` `xarray` `PyTorch` `TorchGeo` `geopandas` `leafmap` `FastAPI`
 
-**📂 Data**
+**Data**
 - [Sen1Floods11](https://github.com/cloudtostreet/Sen1Floods11). Labeled Sentinel-1/2 flood chips for training and testing.
 - [Copernicus Data Space](https://dataspace.copernicus.eu/). Fresh Sentinel-1 scenes for new events.
 - [Copernicus EMS Rapid Mapping](https://rapidmapping.emergency.copernicus.eu/). Official flood maps to validate against.
 - [WorldPop](https://www.worldpop.org/) + [OSM extracts (Geofabrik)](https://download.geofabrik.de/). Population and infrastructure.
 
-**💡 Why it matters:** Insurers, NGOs and civil protection agencies need flood extent within hours, while optical satellites are still blind under the clouds.
+**Why it matters:** Insurers, NGOs and civil protection agencies need flood extent within hours, while optical satellites are still blind under the clouds.
 
 ---
 
@@ -62,9 +61,9 @@
 
 **What it is:** Find the city blocks where extreme heat meets vulnerable people, and recommend the intervention for each one.
 
-**🎯 The focus:** The hottest block is not automatically the riskiest. **Risk = hazard × exposure × vulnerability.** Rank the blocks and attach an action to each one: trees, a cooling center or cool roofs.
+**The focus:** The hottest block is not automatically the riskiest. **Risk = hazard × exposure × vulnerability.** Rank the blocks and attach an action to each one: trees, a cooling center or cool roofs.
 
-**🛠 Build plan**
+**Build plan**
 1. Compute land surface temperature from Landsat Collection 2 L2 (`ST_B10 × 0.00341802 + 149.0` gives Kelvin), using summer composites.
 2. Add NDVI / tree cover from Sentinel-2, plus population and age from a census grid.
 3. Aggregate to blocks or H3 hexes. Baseline: a weighted overlay. Then try XGBoost + SHAP.
@@ -73,13 +72,13 @@
 
 **Stack:** `Python` `earthengine-api` `geemap` `xarray` `geopandas` `h3` `XGBoost` `SHAP` `Streamlit`
 
-**📂 Data**
+**Data**
 - [Landsat 9 C2 L2 (Earth Engine)](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2). Surface temperature.
 - [Sentinel-2 SR Harmonized (Earth Engine)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED). Vegetation.
 - [WorldPop](https://www.worldpop.org/). Population and age structure.
 - [DWD Open Data](https://opendata.dwd.de/climate_environment/CDC/). Station temperatures (Germany) for validation.
 
-**💡 Why it matters:** Heatwaves kill more people than any other weather hazard in Europe. Cities are writing heat action plans right now and need block-level priorities.
+**Why it matters:** Heatwaves kill more people than any other weather hazard in Europe. Cities are writing heat action plans right now and need block-level priorities.
 
 ---
 
@@ -89,9 +88,9 @@
 
 **What it is:** Detect crop stress at parcel level during droughts and heatwaves, early enough to act before harvest.
 
-**🎯 The focus:** Compare each parcel with **its own crop's normal**, not with a global NDVI threshold. Winter wheat and maize peak at different times. Then roll parcels up to districts so the output answers a food-security question.
+**The focus:** Compare each parcel with **its own crop's normal**, not with a global NDVI threshold. Winter wheat and maize peak at different times. Then roll parcels up to districts so the output answers a food-security question.
 
-**🛠 Build plan**
+**Build plan**
 1. Join parcel polygons and crop types with Sentinel-2 NDVI/NDMI time series (build the data cube with `sits`).
 2. Build a per-crop baseline from previous years and compute z-score anomalies.
 3. Add drought drivers: rainfall and soil moisture (SPI/SPEI) from CHIRPS and ERA5-Land.
@@ -100,12 +99,12 @@
 
 **Stack:** `R` `sits` `terra` `sf` `stars` `tidyverse` `Shiny` `leaflet`
 
-**📂 Data**
+**Data**
 - [EuroCrops v2.0 (JRC)](https://doi.org/10.2905/b9fb9e67-78a9-4327-9d59-39a928d812d3). Harmonized IACS parcel crop types across the EU.
 - [sits book](https://e-sensing.github.io/sitsbook/). Data cubes from cloud Sentinel-2 collections, with tutorials.
 - [CHIRPS](https://www.chc.ucsb.edu/data/chirps) + [ERA5-Land](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land). Rainfall, temperature and soil moisture.
 
-**💡 Why it matters:** Ministries, insurers and agri-traders all need early yield-loss signals. Climate change makes every season less predictable.
+**Why it matters:** Ministries, insurers and agri-traders all need early yield-loss signals. Climate change makes every season less predictable.
 
 ---
 
@@ -115,9 +114,9 @@
 
 **What it is:** Downscale satellite NO₂ to street level and find which schools exceed the WHO guideline.
 
-**🎯 The focus:** Sentinel-5P measures a **tropospheric column**, not what people breathe at street level. Calibrate it with ground stations, then add road and land-use predictors to reach about 100 m. Use **spatial cross-validation**, or your accuracy number will be fiction.
+**The focus:** Sentinel-5P measures a **tropospheric column**, not what people breathe at street level. Calibrate it with ground stations, then add road and land-use predictors to reach about 100 m. Use **spatial cross-validation**, or your accuracy number will be fiction.
 
-**🛠 Build plan**
+**Build plan**
 1. Pull Sentinel-5P NO₂ and hourly station data, then aggregate both to annual and seasonal means.
 2. Engineer land-use regression features: road length in 100/500 m buffers, land cover and ERA5 wind.
 3. Baseline: ordinary kriging of the stations. Then Random Forest + residual kriging.
@@ -126,12 +125,12 @@
 
 **Stack:** `R` `sf` `terra` `gstat` `tidymodels` / `ranger` `openaq` `Quarto` `leaflet`
 
-**📂 Data**
+**Data**
 - [Sentinel-5P NO₂ (Earth Engine)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_NO2). Daily tropospheric NO₂.
 - [OpenAQ API](https://docs.openaq.org/). Ground station measurements worldwide. There's also an [R client](https://cran.r-project.org/package=openaq).
 - [OSM extracts (Geofabrik)](https://download.geofabrik.de/). Roads, schools and land use.
 
-**💡 Why it matters:** Cities design low-emission zones and school streets based on exposure maps. Health researchers need street-level estimates, not 5 km pixels.
+**Why it matters:** Cities design low-emission zones and school streets based on exposure maps. Health researchers need street-level estimates, not 5 km pixels.
 
 ---
 
@@ -141,9 +140,9 @@
 
 **What it is:** Measure who can reach a clinic within 15 minutes by walking and public transport, then find the best location for the next one.
 
-**🎯 The focus:** Straight-line buffers are wrong. People travel on networks and timetables. The deliverable is a **location decision**: "Site A adds 18.2k people within 15 min."
+**The focus:** Straight-line buffers are wrong. People travel on networks and timetables. The deliverable is a **location decision**: "Site A adds 18.2k people within 15 min."
 
-**🛠 Build plan**
+**Build plan**
 1. Build a multimodal network from an OSM `.pbf` file + GTFS feeds with r5py.
 2. Compute a travel-time matrix from population hexes (H3) to existing clinics.
 3. Baseline: nearest-facility travel time. Then 2SFCA to account for clinic capacity versus demand.
@@ -152,13 +151,13 @@
 
 **Stack:** `Python` `r5py` `OSMnx` `geopandas` `h3` `PuLP` `Streamlit` `pydeck`
 
-**📂 Data**
+**Data**
 - [OSM extracts (Geofabrik)](https://download.geofabrik.de/). Street network and health facilities.
 - [Mobility Database](https://mobilitydatabase.org/). GTFS transit feeds worldwide.
 - [WorldPop](https://www.worldpop.org/). Gridded population.
 - [r5py docs](https://r5py.readthedocs.io/). Routing engine and tutorials.
 
-**💡 Why it matters:** Health ministries, city planners and retailers all ask the same question: *where do we build next?* This is the GIS question that comes up most often in industry.
+**Why it matters:** Health ministries, city planners and retailers all ask the same question: *where do we build next?* This is the GIS question that comes up most often in industry.
 
 ---
 
