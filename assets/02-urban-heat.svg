@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+  <style>text{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}</style>
+  <rect width="1200" height="520" rx="24" fill="#E8604C"/>
+  <circle cx="90" cy="80" r="32" fill="#FFE08A"/>
+  <g fill="#EE7E6D"><rect x="0" y="380" width="40" height="140"/><rect x="455" y="350" width="40" height="170"/><rect x="1160" y="360" width="40" height="160"/></g>
+  <rect y="470" width="1200" height="50" fill="#CF4F3C"/>
+  <text x="1160" y="72" text-anchor="end" font-size="46" font-weight="800" fill="#fff">URBAN HEAT RISK</text>
+  <text x="1160" y="106" text-anchor="end" font-size="19" font-weight="600" letter-spacing="3" fill="#fff">WHERE HEAT MEETS VULNERABILITY</text>
+<rect x="50" y="140" width="400" height="315" rx="20" fill="#fff"/>
+  <text x="72" y="172" font-size="16" font-weight="700" fill="#1E2A38" text-anchor="start">Land surface temp · Landsat 9</text>
+  <rect x="72" y="188" width="42" height="35" rx="4" fill="#FFF3B0"/>
+  <rect x="72" y="226" width="42" height="35" rx="4" fill="#FFDE85"/>
+  <rect x="72" y="264" width="42" height="35" rx="4" fill="#FFD572"/>
+  <rect x="72" y="302" width="42" height="35" rx="4" fill="#FDBD52"/>
+  <rect x="72" y="340" width="42" height="35" rx="4" fill="#FFD471"/>
+  <rect x="72" y="378" width="42" height="35" rx="4" fill="#FFE088"/>
+  <rect x="117" y="188" width="42" height="35" rx="4" fill="#FFC958"/>
+  <rect x="117" y="226" width="42" height="35" rx="4" fill="#FFCC60"/>
+  <rect x="117" y="264" width="42" height="35" rx="4" fill="#FAA749"/>
+  <rect x="117" y="302" width="42" height="35" rx="4" fill="#F68E3E"/>
+  <rect x="117" y="340" width="42" height="35" rx="4" fill="#FFE28C"/>
+  <rect x="117" y="378" width="42" height="35" rx="4" fill="#FFE492"/>
+  <rect x="162" y="188" width="42" height="35" rx="4" fill="#FFD572"/>
+  <rect x="162" y="226" width="42" height="35" rx="4" fill="#F89D44"/>
+  <rect x="162" y="264" width="42" height="35" rx="4" fill="#F79641"/>
+  <rect x="162" y="302" width="42" height="35" rx="4" fill="#F5893C"/>
+  <rect x="162" y="340" width="42" height="35" rx="4" fill="#FAAB4B"/>
+  <rect x="162" y="378" width="42" height="35" rx="4" fill="#FBB14D"/>
+  <rect x="207" y="188" width="42" height="35" rx="4" fill="#F89D44"/>
+  <rect x="207" y="226" width="42" height="35" rx="4" fill="#E85B34"/>
+  <rect x="207" y="264" width="42" height="35" rx="4" fill="#E95F34"/>
+  <rect x="207" y="302" width="42" height="35" rx="4" fill="#D23930"/>
+  <rect x="207" y="340" width="42" height="35" rx="4" fill="#E96135"/>
+  <rect x="207" y="378" width="42" height="35" rx="4" fill="#FCB850"/>
+  <rect x="252" y="188" width="42" height="35" rx="4" fill="#F58C3D"/>
+  <rect x="252" y="226" width="42" height="35" rx="4" fill="#E1442F"/>
+  <rect x="252" y="264" width="42" height="35" rx="4" fill="#D63B2F"/>
+  <rect x="252" y="302" width="42" height="35" rx="4" fill="#9E1B32"/>
+  <rect x="252" y="340" width="42" height="35" rx="4" fill="#E85E34"/>
+  <rect x="252" y="378" width="42" height="35" rx="4" fill="#F79842"/>
+  <rect x="297" y="188" width="42" height="35" rx="4" fill="#F58A3C"/>
+  <rect x="297" y="226" width="42" height="35" rx="4" fill="#E65633"/>
+  <rect x="297" y="264" width="42" height="35" rx="4" fill="#E34C31"/>
+  <rect x="297" y="302" width="42" height="35" rx="4" fill="#D23930"/>
+  <rect x="297" y="340" width="42" height="35" rx="4" fill="#E95F34"/>
+  <rect x="297" y="378" width="42" height="35" rx="4" fill="#FAA648"/>
+  <rect x="342" y="188" width="42" height="35" rx="4" fill="#FFCB5D"/>
+  <rect x="342" y="226" width="42" height="35" rx="4" fill="#F79641"/>
+  <rect x="342" y="264" width="42" height="35" rx="4" fill="#E65533"/>
+  <rect x="342" y="302" width="42" height="35" rx="4" fill="#F3823B"/>
+  <rect x="342" y="340" width="42" height="35" rx="4" fill="#F27E3A"/>
+  <rect x="342" y="378" width="42" height="35" rx="4" fill="#FCB44E"/>
+  <rect x="387" y="188" width="42" height="35" rx="4" fill="#FFE694"/>
+  <rect x="387" y="226" width="42" height="35" rx="4" fill="#FDBA51"/>
+  <rect x="387" y="264" width="42" height="35" rx="4" fill="#F6913F"/>
+  <rect x="387" y="302" width="42" height="35" rx="4" fill="#F79541"/>
+  <rect x="387" y="340" width="42" height="35" rx="4" fill="#FEC455"/>
+  <rect x="387" y="378" width="42" height="35" rx="4" fill="#FBB14D"/>
+  <circle cx="137" cy="358" r="12" fill="#3CCB7F"/>
+  <text x="72" y="440" font-size="13" font-weight="700" fill="#2A9D5C" text-anchor="start">park: 31°C</text>
+  <text x="428" y="440" font-size="13" font-weight="700" fill="#9E1B32" text-anchor="end">block 0412: 44°C</text>
+  <path d="M456 297 L490 297" stroke="#1E2A38" stroke-width="5" stroke-linecap="round"/><path d="M480 287 L494 297 L480 307" fill="none" stroke="#1E2A38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="502" y="140" width="270" height="315" rx="20" fill="#fff"/>
+  <text x="524" y="172" font-size="16" font-weight="700" fill="#1E2A38" text-anchor="start">Heat risk =</text>
+  <path d="M540 240 L574 196 L752 196 L718 240Z" fill="#F58A3C" opacity="0.9"/>
+  <text x="646" y="223" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">Hazard: surface temp</text>
+  <path d="M540 302 L574 258 L752 258 L718 302Z" fill="#5B6CF0" opacity="0.9"/>
+  <text x="646" y="285" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">Exposure: people / density</text>
+  <path d="M540 364 L574 320 L752 320 L718 364Z" fill="#8E6CEF" opacity="0.9"/>
+  <text x="646" y="347" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">Vulnerability: 65+, no trees</text>
+  <text x="524" y="400" font-size="14" font-weight="400" fill="#6B7785" text-anchor="start">Weighted overlay or</text>
+  <text x="524" y="420" font-size="14" font-weight="400" fill="#6B7785" text-anchor="start">spatial ML (XGBoost + SHAP)</text>
+  <path d="M778 297 L808 297" stroke="#1E2A38" stroke-width="5" stroke-linecap="round"/><path d="M798 287 L812 297 L798 307" fill="none" stroke="#1E2A38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="820" y="140" width="330" height="315" rx="20" fill="#fff" stroke="#1E2A38" stroke-width="4"/>
+  <text x="842" y="172" font-size="16" font-weight="800" fill="#1E2A38" text-anchor="start">Priority blocks</text>
+  <text x="842" y="210" font-size="14" font-weight="600" fill="#1E2A38" text-anchor="start">#1  Block 0412 · 44°C · 3% trees</text>
+  <rect x="842" y="222" width="145" height="30" rx="15" fill="#3CCB7F"/>
+  <text x="914.5" y="242" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Plant 400 trees</text>
+  <text x="842" y="288" font-size="14" font-weight="600" fill="#1E2A38" text-anchor="start">#2  Block 0388 · 42°C · 21% aged 65+</text>
+  <rect x="842" y="300" width="137" height="30" rx="15" fill="#5B6CF0"/>
+  <text x="910.4" y="320" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Cooling center</text>
+  <text x="842" y="366" font-size="14" font-weight="600" fill="#1E2A38" text-anchor="start">#3  Block 0157 · 41°C · dense roofs</text>
+  <rect x="842" y="378" width="104" height="30" rx="15" fill="#F58A3C"/>
+  <text x="894.0" y="398" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Cool roofs</text>
+  <text x="40" y="503" font-size="16" font-weight="600" fill="#fff" opacity="0.85">@codewithboi</text>
+</svg>
