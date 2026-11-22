@@ -31,7 +31,7 @@
 
 ## 1. Fraud Detection
 
-![Fraud detection: transaction, model score, approve, review or block](assets/01-fraud-detection.svg)
+![Fraud detection: transaction, model score, approve, review or block](../assets/01-fraud-detection.svg)
 
 **What it is:** Score every incoming transaction and decide whether to approve it, send it to a human or block it.
 
@@ -54,7 +54,7 @@
 
 ## 2. Complaint Triage + Retrieval
 
-![Complaint triage: complaint text to product, issue, urgency, team and similar cases](assets/02-complaint-triage.svg)
+![Complaint triage: complaint text to product, issue, urgency, team and similar cases](../assets/02-complaint-triage.svg)
 
 **What it is:** A complaint comes in. Classify it, score its urgency, route it to the right team and retrieve similar past cases.
 
@@ -77,7 +77,7 @@
 
 ## 3. Fashion Recommender
 
-![Fashion recommender: popularity baseline, collaborative filtering, personalized top 12](assets/03-fashion-recommendations.svg)
+![Fashion recommender: popularity baseline, collaborative filtering, personalized top 12](../assets/03-fashion-recommendations.svg)
 
 **What it is:** Predict the next 12 items each customer will buy.
 
@@ -100,7 +100,7 @@
 
 ## 4. Retention Risk
 
-![Retention risk: purchase timeline, churn score and SHAP explanation](assets/04-retention-risk.svg)
+![Retention risk: purchase timeline, churn score and SHAP explanation](../assets/04-retention-risk.svg)
 
 **What it is:** Flag the customers who are about to stop buying, and explain why for each one.
 
@@ -123,7 +123,7 @@
 
 ## 5. Bike Demand Forecasting
 
-![Bike demand: station map with rebalancing truck and per-station forecast](assets/05-bike-demand.svg)
+![Bike demand: station map with rebalancing truck and per-station forecast](../assets/05-bike-demand.svg)
 
 **What it is:** Forecast demand at each station using trip history, weather and calendar features.
 
