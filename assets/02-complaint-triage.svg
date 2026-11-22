@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+  <style>text{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}</style>
+  <rect width="1200" height="520" rx="24" fill="#5B6CF0"/>
+  <circle cx="90" cy="80" r="32" fill="#FFE08A"/>
+  <g fill="#7384F5">
+    <rect x="0" y="380" width="80" height="140"/><rect x="200" y="350" width="90" height="170"/>
+    <rect x="430" y="330" width="70" height="190"/><rect x="560" y="390" width="90" height="130"/>
+  </g>
+  <rect y="470" width="1200" height="50" fill="#4C5BD6"/>
+  <text x="1160" y="72" text-anchor="end" font-size="46" font-weight="800" fill="#fff">COMPLAINT TRIAGE</text>
+  <text x="1160" y="106" text-anchor="end" font-size="19" font-weight="600" letter-spacing="3" fill="#fff">NLP CLASSIFICATION + RAG RETRIEVAL</text>
+
+  <!-- complaint bubble -->
+  <path d="M60 160 h330 a18 18 0 0 1 18 18 v140 a18 18 0 0 1 -18 18 h-250 l-40 34 v-34 h-40 a18 18 0 0 1 -18 -18 v-140 a18 18 0 0 1 18 -18z" fill="#fff"/>
+  <g font-size="18" fill="#1E2A38">
+    <text x="78" y="200">"My bank charged me twice for</text>
+    <text x="78" y="230">the same payment. I contacted</text>
+    <text x="78" y="260">support 3 times and the charge</text>
+    <text x="78" y="290">is still on my account."</text>
+  </g>
+  <text x="78" y="322" font-size="14" fill="#6B7785">CFPB complaint #8841207</text>
+  <circle cx="72" cy="410" r="22" fill="#FFCFA3"/><path d="M42 456 a30 26 0 0 1 60 0z" fill="#F08A5D"/>
+  <text x="112" y="418" font-size="16" font-weight="600" fill="#fff">Customer</text>
+
+  <path d="M410 255 C440 215 450 300 478 255" fill="none" stroke="#1E2A38" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- model -->
+  <rect x="482" y="190" width="150" height="130" rx="20" fill="#1E2A38"/>
+  <g stroke="#9AA6FF" stroke-width="2.5">
+    <line x1="527" y1="225" x2="557" y2="245"/><line x1="587" y1="225" x2="557" y2="245"/>
+    <line x1="527" y1="265" x2="557" y2="245"/><line x1="587" y1="265" x2="557" y2="245"/>
+  </g>
+  <g fill="#9AA6FF"><circle cx="527" cy="225" r="7"/><circle cx="587" cy="225" r="7"/><circle cx="527" cy="265" r="7"/><circle cx="587" cy="265" r="7"/></g>
+  <circle cx="557" cy="245" r="10" fill="#FFE08A"/>
+  <text x="557" y="303" text-anchor="middle" font-size="17" font-weight="800" fill="#fff">NLP + RAG</text>
+
+  <path d="M632 255 L672 255" stroke="#1E2A38" stroke-width="5" stroke-linecap="round"/>
+  <path d="M662 245 L676 255 L662 265" fill="none" stroke="#1E2A38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- output card -->
+  <rect x="690" y="140" width="460" height="316" rx="20" fill="#fff"/>
+  <g font-size="16" fill="#6B7785">
+    <text x="716" y="186">Product</text><text x="716" y="236">Issue</text><text x="716" y="286">Urgency</text>
+    <text x="716" y="336">Route to</text><text x="716" y="400">Similar cases</text>
+  </g>
+  <rect x="846" y="164" width="130" height="34" rx="17" fill="#E6E9FF"/><text x="911" y="187" text-anchor="middle" font-size="16" font-weight="700" fill="#3F4FD9">Credit card</text>
+  <rect x="846" y="214" width="170" height="34" rx="17" fill="#E6E9FF"/><text x="931" y="237" text-anchor="middle" font-size="16" font-weight="700" fill="#3F4FD9">Incorrect charge</text>
+  <rect x="846" y="264" width="86" height="34" rx="17" fill="#F0544F"/><text x="889" y="287" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">HIGH</text>
+  <rect x="846" y="314" width="226" height="34" rx="17" fill="#3CCB7F"/><text x="959" y="337" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Payments dispute team</text>
+  <g fill="#C9CFFF">
+    <path d="M846 380 h26 l10 10 v32 h-36z"/><path d="M892 380 h26 l10 10 v32 h-36z"/><path d="M938 380 h26 l10 10 v32 h-36z"/>
+    <path d="M984 380 h26 l10 10 v32 h-36z"/><path d="M1030 380 h26 l10 10 v32 h-36z"/>
+  </g>
+  <text x="1080" y="408" font-size="15" font-weight="700" fill="#3F4FD9">top 5</text>
+
+  <text x="40" y="503" font-size="16" font-weight="600" fill="#fff" opacity="0.85">@codewithboi</text>
+</svg>
